@@ -1,15 +1,27 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>백테스트 과최적화·미래 정보 참조와 별도 기간 검증 · 학습 서재</title><link rel="stylesheet" href="../style.css"></head><body><main class="reading"><nav><a href="../index.html">← 학습 서재</a></nav><header><div class="eyebrow">도메인</div><h1>백테스트 과최적화·미래 정보 참조와 별도 기간 검증</h1></header><article><p>과최적화는 과거 자료의 우연한 패턴에 규칙을 지나치게 맞추는 것이다. 미래 정보 참조는 당시 알 수 없던 자료를 의사결정에 사용하는 오류다.</p>
-<h2>1. 개념을 연결해 이해하기</h2>
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>백테스트 과최적화·미래 정보 참조와 별도 기간 검증 · 학습 서재</title><link rel="stylesheet" href="../style.css"></head><body><main class="reading"><nav><a href="../index.html">← 학습 서재</a></nav><header><div class="eyebrow">도메인</div><h1>백테스트 과최적화·미래 정보 참조와 별도 기간 검증</h1></header><article><h2>서론</h2>
+<p>과거 자료에서 가장 높은 수익이 나오도록 설정을 계속 바꿨더니 완벽해 보이는 전략이 생겼다. 하지만 같은 자료에 맞춰 고른 결과라면 새로운 기간에서도 잘될지는 아직 모른다.</p>
+<h2>본론</h2>
+<h3>1. 개념의 정의</h3>
+<h4>백테스트</h4>
+<p>과거 자료에 거래 규칙을 적용해 가상의 결과를 계산하는 시험이다. 자료와 체결 가정의 범위 안에서만 의미가 있다.</p>
+<h4>과최적화</h4>
+<p>특정 시험 자료의 우연한 특징까지 맞추어 새로운 자료에는 잘 적용되지 않는 상태다. 여러 설정 중 최고 결과만 고를 때 특히 주의해야 한다.</p>
+<h4>미래 정보 참조</h4>
+<p>그 시점에는 알 수 없었던 정보를 과거의 판단에 사용하는 오류다. 별도 기간 검증은 설정 선택에 쓰지 않은 뒤쪽 기간에서 규칙을 시험하는 방법이다.</p>
+<h3>2. 개념을 연결해 이해하기</h3>
 <p>규칙을 조정하는 기간과 평가하는 기간을 나누고 시간 순서에 맞는 입력만 사용해야 한다. 평가 결과를 보고 계속 조정하면 그 평가 기간도 사실상 학습에 사용된 것이다.</p>
-<h2>2. 사례로 살펴보기</h2>
+<p>오전 10시 판단에 그날의 최종 최고가를 넣으면 당시에는 알 수 없는 정보를 미리 안 셈이다. 또 검증 기간을 보고 설정을 다시 고쳤다면 그 기간은 더 이상 완전히 새로운 시험이 아니다. 시간 순서를 유지하고 설정을 선택한 자료와 마지막 확인 자료를 구분하는 절차가 필요하다.</p>
+<h3>3. 사례로 살펴보기</h3>
 <p>당일 종가를 알고 그날 장중에 주문한 것으로 계산하면 미래 정보가 섞인다. 봉 마감 후 신호를 만들었다면 주문 가능한 다음 시점의 가격으로 검증한다.</p>
-<h2>3. 주의할 점과 확인 방법</h2>
+<h3>4. 주의점과 확인 방법</h3>
 <p>가장 좋은 설정 하나만 공개하면 시도한 수많은 실패 설정의 영향이 숨겨진다. 조정 횟수, 분리 기간, 비용 가정과 재검증을 기록한다.</p>
-<h2>글 끝의 확인 질문</h2>
+<h2>결론</h2>
+<p>좋은 과거 결과가 정직한 시험에서 나왔는지 먼저 확인해야 한다. 시간 순서와 자료 분리를 지키는 것이 미래 성과를 보장하지는 않지만 잘못된 자신감을 줄이는 데 중요하다.</p>
+<h3>읽고 확인할 질문</h3>
 <p>검증 기간을 본 뒤 설정을 바꿨다면 그 기간을 독립 검증으로 계속 부를 수 있는가?</p>
-<h2>글의 범위와 참고 자료</h2>
-<p>제공된 학습 주제를 바탕으로 작성한 개념 설명이다. 원본 프로젝트의 구현·수치·실행 결과를 확인한 보고서는 아니다. 사례는 실제 성과나 확정된 설정값을 뜻하지 않는다.
-개념 연결과 사례는 이 학습 자료를 위해 작성한 설명·설계 제안이다. 실제 사업장 공정, 투자 판단, 제품 설정 및 서비스 공개 의무는 해당 조건의 자료로 별도 확인해야 한다.</p>
-<p>추가 참고: scikit-learn TimeSeriesSplit — 시간 순서에 따른 학습·평가 분리의 기술적 예시
-<a href="https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html">https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html</a></p>
+<h3>범위와 참고 자료</h3>
+<p>사례와 수치는 이해를 돕기 위한 가정이며 특정 개인의 프로젝트나 실제 운영 결과를 설명하지 않는다.</p>
+<ul>
+<li><a href="https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html">관련 공식·일차 자료 1</a></li>
+</ul>
 </article><footer>학습을 위한 기록 · 자료의 범위와 출처는 각 글에서 확인하세요.</footer></main></body></html>

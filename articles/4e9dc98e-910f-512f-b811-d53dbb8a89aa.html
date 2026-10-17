@@ -1,15 +1,27 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>로그인 기반 자동 복구와 전원·절전·인터넷 장애의 한계 · 학습 서재</title><link rel="stylesheet" href="../style.css"></head><body><main class="reading"><nav><a href="../index.html">← 학습 서재</a></nav><header><div class="eyebrow">개발·운영</div><h1>로그인 기반 자동 복구와 전원·절전·인터넷 장애의 한계</h1></header><article><p>로그인 시 실행은 사용자가 로그인하는 사건을 시작 조건으로 삼는다. 전원 꺼짐·로그인 전 상태·절전 중에도 지속 실행된다는 뜻은 아니다.</p>
-<h2>1. 개념을 연결해 이해하기</h2>
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>로그인 기반 자동 복구와 전원·절전·인터넷 장애의 한계 · 학습 서재</title><link rel="stylesheet" href="../style.css"></head><body><main class="reading"><nav><a href="../index.html">← 학습 서재</a></nav><header><div class="eyebrow">개발·운영</div><h1>로그인 기반 자동 복구와 전원·절전·인터넷 장애의 한계</h1></header><article><h2>서론</h2>
+<p>PC에 로그인하면 도구가 자동으로 켜지도록 설정했다고 하자. 그렇다고 전원이 꺼져 있거나 절전 중인 PC에서 계속 감시가 이루어지는 것은 아니다.</p>
+<h2>본론</h2>
+<h3>1. 개념의 정의</h3>
+<h4>로그인 기반 시작</h4>
+<p>사용자 로그인이라는 사건을 계기로 프로그램을 실행하는 방식이다. 운영체제 부팅 직후 실행과 조건이 다를 수 있다.</p>
+<h4>복구와 가용성</h4>
+<p>복구는 중단 뒤 동작을 되살리는 과정이고, 가용성은 필요한 때 기능을 사용할 수 있는 정도다. 자동 시작 기능 하나가 전체 가용성을 보장하지 않는다.</p>
+<h4>장애 조건</h4>
+<p>전원·절전·네트워크·인증 등 실행을 막는 환경 조건이다. 서로 다른 원인이므로 대응 방법도 다르다.</p>
+<h3>2. 개념을 연결해 이해하기</h3>
 <p>복구 조건을 프로세스, 운영체제 세션, 전원, 네트워크로 나눠 보면 적용 범위를 설명하기 쉽다. 복구 뒤에는 상태 확인과 주문 대사가 필요하다.</p>
-<h2>2. 사례로 살펴보기</h2>
+<p>로그인하지 않으면 시작하지 않는 설정이라면 재부팅만으로는 작업이 재개되지 않는다. 또 프로그램이 켜져 있어도 인터넷이 끊기면 외부 상태를 확인할 수 없다. 복구 후에는 마지막 기록과 외부 주문을 맞춰야 하므로 단순히 실행 파일을 띄우는 것보다 복구 절차가 길 수 있다.</p>
+<h3>3. 사례로 살펴보기</h3>
 <p>로그인 뒤 워커가 자동 시작해도 인터넷이 끊겼다면 시세와 주문 확인은 실패할 수 있다. 네트워크 복구 후 미확인 주문을 대사한 뒤 재개 조건을 검사한다.</p>
-<h2>3. 주의할 점과 확인 방법</h2>
+<h3>4. 주의점과 확인 방법</h3>
 <p>절전 복귀와 재부팅은 서로 다른 시험이다. 자동 복구가 사용자의 중지 상태를 덮어쓰지 않게 하고 실제 PC에서 각각 확인해야 한다.</p>
-<h2>글 끝의 확인 질문</h2>
+<h2>결론</h2>
+<p>자동 실행의 시작 조건과 실행 후 검증 범위를 구분하자. 로그인·재부팅·절전 복귀·통신 회복을 각각 시험해야 어떤 상황까지 복구되는지 알 수 있다.</p>
+<h3>읽고 확인할 질문</h3>
 <p>로그인 기반 복구로 해결할 수 없는 장애 세 가지는 무엇인가?</p>
-<h2>글의 범위와 참고 자료</h2>
-<p>제공된 학습 주제를 바탕으로 작성한 개념 설명이다. 원본 프로젝트의 구현·수치·실행 결과를 확인한 보고서는 아니다. 사례는 실제 성과나 확정된 설정값을 뜻하지 않는다.
-아래 자료는 관련 기술 동작의 참고 자료이며, 글의 설계 제안이나 사례 수치를 보장하는 근거는 아니다.</p>
-<p>Microsoft: Logon trigger
-<a href="https://learn.microsoft.com/en-us/windows/win32/taskschd/logontrigger">https://learn.microsoft.com/en-us/windows/win32/taskschd/logontrigger</a></p>
+<h3>범위와 참고 자료</h3>
+<p>사례와 수치는 이해를 돕기 위한 가정이며 특정 개인의 프로젝트나 실제 운영 결과를 설명하지 않는다.</p>
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/windows/win32/taskschd/logontrigger">관련 공식·일차 자료 1</a></li>
+</ul>
 </article><footer>학습을 위한 기록 · 자료의 범위와 출처는 각 글에서 확인하세요.</footer></main></body></html>

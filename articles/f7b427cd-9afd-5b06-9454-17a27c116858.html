@@ -1,15 +1,27 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>화면 좌표와 3D 광선 선택을 연결한 분해·배치 입력 처리 · 학습 서재</title><link rel="stylesheet" href="../style.css"></head><body><main class="reading"><nav><a href="../index.html">← 학습 서재</a></nav><header><div class="eyebrow">개발·운영</div><h1>화면 좌표와 3D 광선 선택을 연결한 분해·배치 입력 처리</h1></header><article><p>화면에서 클릭한 2D 위치는 카메라를 통해 3D 광선의 시작점과 방향으로 변환할 수 있다. 광선과 충돌체의 교차 결과로 선택 대상을 판단한다.</p>
-<h2>1. 개념을 연결해 이해하기</h2>
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>화면 좌표와 3D 광선 선택을 연결한 분해·배치 입력 처리 · 학습 서재</title><link rel="stylesheet" href="../style.css"></head><body><main class="reading"><nav><a href="../index.html">← 학습 서재</a></nav><header><div class="eyebrow">개발·운영</div><h1>화면 좌표와 3D 광선 선택을 연결한 분해·배치 입력 처리</h1></header><article><h2>서론</h2>
+<p>화면에서 나사 위치를 눌렀다고 해서 컴퓨터가 곧바로 어떤 3D 물건인지 아는 것은 아니다. 화면의 점을 게임 세계의 방향과 연결하는 과정이 필요하다.</p>
+<h2>본론</h2>
+<h3>1. 개념의 정의</h3>
+<h4>화면 좌표</h4>
+<p>창 안에서 가로·세로 위치로 표현한 점이다. 같은 화면 좌표라도 카메라 위치와 방향이 바뀌면 다른 장소를 가리킨다.</p>
+<h4>광선 질의</h4>
+<p>특정 위치에서 한 방향으로 선을 뻗었을 때 어떤 충돌체와 만나는지 검사하는 방법이다. 빛을 실제로 그릴 필요는 없다.</p>
+<h4>충돌 계층과 마스크</h4>
+<p>충돌체를 종류별로 나누고 어떤 종류를 검사할지 고르는 장치다. 분해 부위와 배치 바닥을 구분하는 데 사용할 수 있다.</p>
+<h3>2. 개념을 연결해 이해하기</h3>
 <p>선택 가능한 충돌 계층, 최대 거리, 배치 표면을 제한하면 잘못된 대상을 줄일 수 있다. 화면 입력 수집과 물리 공간 질의 시점을 구분하는 것이 중요하다.</p>
-<h2>2. 사례로 살펴보기</h2>
+<p>카메라에서 클릭 위치를 통과하는 방향을 구한 뒤, 그 방향에 있는 충돌체를 검사하면 후보를 얻는다. 그러나 후보가 선택 가능한 부위인지, 너무 멀지 않은지, 아직 외장에 가려져 있지 않은지는 별도 판단이다. UI 위의 클릭도 먼저 처리해 게임 세계로 같은 입력이 전달되지 않도록 해야 한다.</p>
+<h3>3. 사례로 살펴보기</h3>
 <p>부위 클릭은 부위 계층만 검사하고 바닥 배치는 배치 가능한 표면을 검사한다. UI 버튼 위의 클릭이 뒤쪽 물건까지 선택하지 않는지도 확인한다.</p>
-<h2>3. 주의할 점과 확인 방법</h2>
+<h3>4. 주의점과 확인 방법</h3>
 <p>광선이 맞았다고 항상 상호작용할 수 있는 것은 아니다. 거리, 가림, 선행 분해 조건, 현재 카메라 모드를 추가로 검사해야 한다.</p>
-<h2>글 끝의 확인 질문</h2>
+<h2>결론</h2>
+<p>클릭은 화면의 점이고 상호작용은 세계 안의 대상에 대한 행동이다. 광선 질의로 대상을 찾은 다음 게임 규칙으로 행동 가능 여부를 확인하는 두 단계를 구분하자.</p>
+<h3>읽고 확인할 질문</h3>
 <p>같은 화면 위치가 카메라에 따라 다른 물체를 선택하는 이유는 무엇인가?</p>
-<h2>글의 범위와 참고 자료</h2>
-<p>제공된 학습 주제를 바탕으로 작성한 개념 설명이다. 원본 프로젝트의 구현·수치·실행 결과를 확인한 보고서는 아니다. 사례는 실제 성과나 확정된 설정값을 뜻하지 않는다.
-아래 자료는 관련 기술 동작의 참고 자료이며, 글의 설계 제안이나 사례 수치를 보장하는 근거는 아니다.</p>
-<p>Godot 4.5: Ray-casting
-<a href="https://docs.godotengine.org/en/4.5/tutorials/physics/ray-casting.html">https://docs.godotengine.org/en/4.5/tutorials/physics/ray-casting.html</a></p>
+<h3>범위와 참고 자료</h3>
+<p>사례와 수치는 이해를 돕기 위한 가정이며 특정 개인의 프로젝트나 실제 운영 결과를 설명하지 않는다.</p>
+<ul>
+<li><a href="https://docs.godotengine.org/en/4.5/tutorials/physics/ray-casting.html">관련 공식·일차 자료 1</a></li>
+</ul>
 </article><footer>학습을 위한 기록 · 자료의 범위와 출처는 각 글에서 확인하세요.</footer></main></body></html>

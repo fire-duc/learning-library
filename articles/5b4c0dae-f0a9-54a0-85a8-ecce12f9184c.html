@@ -1,17 +1,28 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>로컬 접속·Tailscale·Caddy·허용 기기 제한과 Forbidden·502 오류 · 학습 서재</title><link rel="stylesheet" href="../style.css"></head><body><main class="reading"><nav><a href="../index.html">← 학습 서재</a></nav><header><div class="eyebrow">개발·운영</div><h1>로컬 접속·Tailscale·Caddy·허용 기기 제한과 Forbidden·502 오류</h1></header><article><p>로컬 접속은 같은 PC의 서비스 접근이고 Tailscale은 허용된 네트워크 연결을, Caddy는 역방향 프록시 같은 HTTP 전달을 구성할 수 있다. 네트워크 허용과 앱 인증은 별개다.</p>
-<h2>1. 개념을 연결해 이해하기</h2>
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>로컬 접속·Tailscale·Caddy·허용 기기 제한과 Forbidden·502 오류 · 학습 서재</title><link rel="stylesheet" href="../style.css"></head><body><main class="reading"><nav><a href="../index.html">← 학습 서재</a></nav><header><div class="eyebrow">개발·운영</div><h1>로컬 접속·Tailscale·Caddy·허용 기기 제한과 Forbidden·502 오류</h1></header><article><h2>서론</h2>
+<p>집 안에서는 열리던 관리 화면이 휴대폰에서 열리지 않는다고 하자. 주소 하나만 바꿔가며 시도하기보다, 연결이 통과하는 단계를 나누면 원인을 찾기 쉽다.</p>
+<h2>본론</h2>
+<h3>1. 개념의 정의</h3>
+<h4>로컬 접속과 Tailscale</h4>
+<p>로컬 접속은 같은 기기 안이나 가까운 네트워크에서 서비스에 접근하는 방식이다. Tailscale은 허용된 기기 사이의 사설 연결을 제공하지만 앱 자체를 실행해 주지는 않는다.</p>
+<h4>리버스 프록시</h4>
+<p>사용자의 요청을 받아 뒤쪽 앱 서버로 전달하는 중간 서버다. Caddy는 이 역할을 수행할 수 있다.</p>
+<h4>403과 502</h4>
+<p>403은 요청이 이해됐지만 허용되지 않았음을 나타내는 HTTP 상태다. 502는 중간 서버가 뒤쪽 서버에서 유효한 응답을 받지 못했음을 나타낸다. 정확한 원인은 해당 응답과 로그로 확인해야 한다.</p>
+<h3>2. 개념을 연결해 이해하기</h3>
 <p>Forbidden은 접근 거부 계열의 응답이며 502는 중간 서버가 상위 서버와 정상 통신하지 못한 상황을 가리킬 수 있다. 응답을 만든 구성 요소부터 확인해야 한다.</p>
-<h2>2. 사례로 살펴보기</h2>
+<p>휴대폰에서 프록시까지 연결됐어도 앱 서버가 꺼져 있으면 화면은 열리지 않는다. 반대로 앱이 살아 있어도 접근 정책이 요청을 막으면 거절된다. 따라서 기기 연결, 포트 접근, 프록시 응답, 앱 상태를 순서대로 확인한다. 403이라는 숫자만 보고 항상 로그인 문제라고 결론 내리지 않는 것이 중요하다.</p>
+<h3>3. 사례로 살펴보기</h3>
 <p>로컬 주소는 열리지만 프록시 주소가 502라면 프록시의 대상 주소와 서버 실행 상태를 확인한다. 특정 기기만 403이면 앱·프록시의 접근 정책과 로그를 구분한다.</p>
-<h2>3. 주의할 점과 확인 방법</h2>
+<h3>4. 주의점과 확인 방법</h3>
 <p>허용 기기 목록만으로 사용자별 권한이 완성되지 않는다. 주소·포트·TLS·정책을 실제 환경에서 확인하고 무작정 인증을 해제하는 식으로 해결하지 않는다.</p>
-<h2>글 끝의 확인 질문</h2>
+<h2>결론</h2>
+<p>네트워크·프록시·앱은 서로 다른 단계다. 어느 단계에서 응답했는지와 그 단계의 로그를 함께 보면 무작정 보안을 해제하지 않고도 원인을 좁힐 수 있다.</p>
+<h3>읽고 확인할 질문</h3>
 <p>접속 오류가 네트워크·프록시·앱 중 어디서 발생했는지 어떻게 좁힐 수 있는가?</p>
-<h2>글의 범위와 참고 자료</h2>
-<p>제공된 학습 주제를 바탕으로 작성한 개념 설명이다. 원본 프로젝트의 구현·수치·실행 결과를 확인한 보고서는 아니다. 사례는 실제 성과나 확정된 설정값을 뜻하지 않는다.
-아래 자료는 관련 기술 동작의 참고 자료이며, 글의 설계 제안이나 사례 수치를 보장하는 근거는 아니다.</p>
-<p>Tailscale: Access control
-<a href="https://tailscale.com/docs/features/access-control">https://tailscale.com/docs/features/access-control</a></p>
-<p>Caddy: reverse_proxy
-<a href="https://caddyserver.com/docs/caddyfile/directives/reverse_proxy">https://caddyserver.com/docs/caddyfile/directives/reverse_proxy</a></p>
+<h3>범위와 참고 자료</h3>
+<p>사례와 수치는 이해를 돕기 위한 가정이며 특정 개인의 프로젝트나 실제 운영 결과를 설명하지 않는다.</p>
+<ul>
+<li><a href="https://tailscale.com/docs/features/access-control">관련 공식·일차 자료 1</a></li>
+<li><a href="https://caddyserver.com/docs/caddyfile/directives/reverse_proxy">관련 공식·일차 자료 2</a></li>
+</ul>
 </article><footer>학습을 위한 기록 · 자료의 범위와 출처는 각 글에서 확인하세요.</footer></main></body></html>

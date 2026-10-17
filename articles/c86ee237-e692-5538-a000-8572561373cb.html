@@ -1,21 +1,29 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>상승·하락·횡보 국면과 EMA·ADX·ATR·모멘텀 · 학습 서재</title><link rel="stylesheet" href="../style.css"></head><body><main class="reading"><nav><a href="../index.html">← 학습 서재</a></nav><header><div class="eyebrow">도메인</div><h1>상승·하락·횡보 국면과 EMA·ADX·ATR·모멘텀</h1></header><article><p>EMA는 최근 값에 더 큰 가중치를 주는 이동평균이고 ADX는 추세 강도, ATR은 변동 범위, 모멘텀은 변화의 속도나 크기를 측정하는 계열이다.</p>
-<h2>1. 개념을 연결해 이해하기</h2>
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>상승·하락·횡보 국면과 EMA·ADX·ATR·모멘텀 · 학습 서재</title><link rel="stylesheet" href="../style.css"></head><body><main class="reading"><nav><a href="../index.html">← 학습 서재</a></nav><header><div class="eyebrow">도메인</div><h1>상승·하락·횡보 국면과 EMA·ADX·ATR·모멘텀</h1></header><article><h2>서론</h2>
+<p>가격이 오르는지와 가격이 크게 흔들리는지는 서로 다른 질문이다. 여러 지표를 함께 볼 때는 각각 무엇을 요약하는지 먼저 구분해야 한다.</p>
+<h2>본론</h2>
+<h3>1. 개념의 정의</h3>
+<h4>시장 국면과 모멘텀</h4>
+<p>국면은 상승·하락·횡보처럼 가격 흐름을 분류한 것이다. 모멘텀은 일정 기간 가격 변화의 방향이나 크기를 나타내는 개념이며 계산 방식은 여러 가지다.</p>
+<h4>EMA</h4>
+<p>최근 값에 상대적으로 더 큰 비중을 두는 지수이동평균이다. 가격 흐름을 부드럽게 요약하지만 과거 자료를 사용하므로 변화를 뒤따를 수 있다.</p>
+<h4>ADX와 ATR</h4>
+<p>ADX는 추세의 강도를 요약하며 그 값만으로 상승·하락 방향을 알려주지는 않는다. ATR은 가격의 변동 범위를 요약하는 지표로, 높은 값이 곧 상승을 뜻하지 않는다.</p>
+<h3>2. 개념을 연결해 이해하기</h3>
 <p>ADX가 높다고 상승 방향이라는 뜻은 아니며 ATR도 상승 예측값이 아니다. 방향, 강도, 변동성, 변화량을 다른 질문에 연결해야 지표를 중복 해석하지 않는다.</p>
-<h2>2. 사례로 살펴보기</h2>
+<p>가상의 가격이 큰 폭으로 오르내리며 출발점 근처를 맴돈다면 변동은 커도 뚜렷한 방향은 약할 수 있다. 이때 ATR과 추세 지표를 같은 뜻으로 읽으면 판단이 엇갈린다. 지표를 더 많이 넣는 것보다 방향·강도·변동성 중 어떤 질문에 답하려는지 정하는 것이 먼저다.</p>
+<h3>3. 사례로 살펴보기</h3>
 <p>가격이 하락하면서 ADX와 ATR이 높아질 수도 있다. 이 경우 강한 하락과 큰 변동을 나타낼 수 있지만 어느 가격에 체결될지는 따로 확인해야 한다.</p>
-<h2>3. 주의할 점과 확인 방법</h2>
+<h3>4. 주의점과 확인 방법</h3>
 <p>지표 기간·초기값·봉 주기와 구현 방식에 따라 값이 달라진다. 이 글은 공식 계산 구현이나 매수 조합 추천이 아니며 계산 전 사용 라이브러리 정의를 확인한다.</p>
-<h2>글 끝의 확인 질문</h2>
+<h2>결론</h2>
+<p>지표 이름을 외우기보다 어떤 정보를 압축하고 무엇은 알려주지 않는지 이해하자. 지표의 조합과 기준값은 별도 검증 대상이며 수익을 보장하는 신호가 아니다.</p>
+<h3>읽고 확인할 질문</h3>
 <p>방향을 알려주지 않는 지표를 방향 신호로 잘못 읽는 예를 들 수 있는가?</p>
-<h2>글의 범위와 참고 자료</h2>
-<p>제공된 학습 주제를 바탕으로 작성한 개념 설명이다. 원본 프로젝트의 구현·수치·실행 결과를 확인한 보고서는 아니다. 사례는 실제 성과나 확정된 설정값을 뜻하지 않는다.
-개념 연결과 사례는 이 학습 자료를 위해 작성한 설명·설계 제안이다. 실제 사업장 공정, 투자 판단, 제품 설정 및 서비스 공개 의무는 해당 조건의 자료로 별도 확인해야 한다.</p>
-<p>지표 개념 참고
-Fidelity: EMA
-<a href="https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/ema">https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/ema</a>
-Fidelity: ADX
-<a href="https://www.fidelity.com/viewpoints/active-investor/average-directional-index-ADX">https://www.fidelity.com/viewpoints/active-investor/average-directional-index-ADX</a>
-Fidelity: ATR
-<a href="https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/atr">https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/atr</a>
-이 자료는 지표 정의를 위한 참고이며 이 프로젝트의 전략 성과를 검증하지 않는다.</p>
+<h3>범위와 참고 자료</h3>
+<p>사례와 수치는 이해를 돕기 위한 가정이며 특정 개인의 프로젝트나 실제 운영 결과를 설명하지 않는다.</p>
+<ul>
+<li><a href="https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/ema">관련 공식·일차 자료 1</a></li>
+<li><a href="https://www.fidelity.com/viewpoints/active-investor/average-directional-index-ADX">관련 공식·일차 자료 2</a></li>
+<li><a href="https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/atr">관련 공식·일차 자료 3</a></li>
+</ul>
 </article><footer>학습을 위한 기록 · 자료의 범위와 출처는 각 글에서 확인하세요.</footer></main></body></html>
