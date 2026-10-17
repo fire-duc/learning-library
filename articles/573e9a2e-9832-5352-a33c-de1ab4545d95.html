@@ -1,0 +1,15 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>저장 파일 검증·임시 파일 교체·백업 복원과 기존 캠페인 저장 분리 · 학습 서재</title><link rel="stylesheet" href="../style.css"></head><body><main class="reading"><nav><a href="../index.html">← 학습 서재</a></nav><header><div class="eyebrow">개발·운영</div><h1>저장 파일 검증·임시 파일 교체·백업 복원과 기존 캠페인 저장 분리</h1></header><article><p>저장은 메모리 상태를 기록하는 일이고 복원은 기록을 신뢰할 수 있는 게임 상태로 바꾸는 일이다. 읽기에 성공한 JSON도 필수 필드와 값 범위가 틀릴 수 있다.</p>
+<h2>1. 개념을 연결해 이해하기</h2>
+<p>저장 버전과 필드 범위를 검사하고 임시 파일을 완성한 뒤 기존 파일 교체를 시도하는 방식으로 손상 위험을 줄일 수 있다. 교체 실패와 디스크 부족도 처리해야 한다.</p>
+<h2>2. 사례로 살펴보기</h2>
+<p>학습용 새 캠페인을 기존 캠페인과 다른 슬롯에 저장하고, 주 저장 파일이 손상되면 검증된 백업으로 복원하는 가상 절차를 설계한다.</p>
+<h2>3. 주의할 점과 확인 방법</h2>
+<p>파일 이름 변경만으로 모든 운영체제·전원 장애에서 영속성이 보장되지는 않는다. 백업도 검사해야 하며 기존 캠페인을 자동 덮어쓰지 않는다.</p>
+<h2>글 끝의 확인 질문</h2>
+<p>주 저장과 백업이 모두 손상됐을 때 사용자에게 무엇을 알리고 무엇을 보존해야 하는가?</p>
+<h2>글의 범위와 참고 자료</h2>
+<p>제공된 학습 주제를 바탕으로 작성한 개념 설명이다. 원본 프로젝트의 구현·수치·실행 결과를 확인한 보고서는 아니다. 사례는 실제 성과나 확정된 설정값을 뜻하지 않는다.
+아래 자료는 관련 기술 동작의 참고 자료이며, 글의 설계 제안이나 사례 수치를 보장하는 근거는 아니다.</p>
+<p>Godot 4.5: Saving games
+<a href="https://docs.godotengine.org/en/4.5/tutorials/io/saving_games.html">https://docs.godotengine.org/en/4.5/tutorials/io/saving_games.html</a></p>
+</article><footer>학습을 위한 기록 · 자료의 범위와 출처는 각 글에서 확인하세요.</footer></main></body></html>

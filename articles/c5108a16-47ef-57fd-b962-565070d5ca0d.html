@@ -1,0 +1,15 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SQLite 트랜잭션·잠금·읽기 전용 조회와 장부 일관성 · 학습 서재</title><link rel="stylesheet" href="../style.css"></head><body><main class="reading"><nav><a href="../index.html">← 학습 서재</a></nav><header><div class="eyebrow">개발·운영</div><h1>SQLite 트랜잭션·잠금·읽기 전용 조회와 장부 일관성</h1></header><article><p>트랜잭션은 관련 변경을 하나의 성공·실패 단위로 묶는다. SQLite는 동시 쓰기를 직렬화하며 설정된 저널 방식에 따라 읽기와 쓰기의 관계가 달라진다.</p>
+<h2>1. 개념을 연결해 이해하기</h2>
+<p>잔고와 체결 기록을 같은 트랜잭션으로 반영하면 일부만 저장되는 문제를 줄일 수 있다. 읽기 전용 연결은 의도치 않은 쓰기를 줄이지만 조회 지연이나 오래된 스냅샷을 없애지는 않는다.</p>
+<h2>2. 사례로 살펴보기</h2>
+<p>체결 기록은 저장됐는데 현금 차감이 실패하는 상태를 막기 위해 두 갱신을 묶는다. 긴 조회 트랜잭션은 새 변경을 즉시 보지 못할 수 있다.</p>
+<h2>3. 주의할 점과 확인 방법</h2>
+<p>WAL 사용이 다중 작성자의 무제한 동시 쓰기를 뜻하지 않는다. 잠금 대기·재시도와 트랜잭션 길이를 관리하고 외부 API 호출을 장시간 쓰기 잠금 안에 두지 않는다.</p>
+<h2>글 끝의 확인 질문</h2>
+<p>트랜잭션 밖에서 두 합계를 따로 갱신하면 어떤 불일치가 생기는가?</p>
+<h2>글의 범위와 참고 자료</h2>
+<p>제공된 학습 주제를 바탕으로 작성한 개념 설명이다. 원본 프로젝트의 구현·수치·실행 결과를 확인한 보고서는 아니다. 사례는 실제 성과나 확정된 설정값을 뜻하지 않는다.
+아래 자료는 관련 기술 동작의 참고 자료이며, 글의 설계 제안이나 사례 수치를 보장하는 근거는 아니다.</p>
+<p>SQLite: Isolation
+<a href="https://sqlite.org/isolation.html">https://sqlite.org/isolation.html</a></p>
+</article><footer>학습을 위한 기록 · 자료의 범위와 출처는 각 글에서 확인하세요.</footer></main></body></html>

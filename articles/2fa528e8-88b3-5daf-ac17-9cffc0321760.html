@@ -1,0 +1,15 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>현재가 캐시·성과 캐시·호가 재조회와 데이터 지연 · 학습 서재</title><link rel="stylesheet" href="../style.css"></head><body><main class="reading"><nav><a href="../index.html">← 학습 서재</a></nav><header><div class="eyebrow">개발·운영</div><h1>현재가 캐시·성과 캐시·호가 재조회와 데이터 지연</h1></header><article><p>캐시는 비용을 줄이기 위해 이전 결과를 재사용하는 장치다. 현재가·성과·주문 직전 호가는 목적과 허용 지연이 서로 다르다.</p>
+<h2>1. 개념을 연결해 이해하기</h2>
+<p>캐시마다 생성 시각과 유효 기간, 무효화 조건을 둔다. 화면용 캐시가 주문 판단에도 적합하다고 가정하면 오래된 가격으로 주문할 수 있다.</p>
+<h2>2. 사례로 살펴보기</h2>
+<p>화면 현재가는 짧게 재사용하고 성과는 장부 버전이 바뀔 때 갱신할 수 있다. 주문 직전 호가는 별도로 조회하되 그 사이의 변화도 감안해야 한다.</p>
+<h2>3. 주의할 점과 확인 방법</h2>
+<p>재조회가 체결 가격을 보장하지 않는다. 캐시 적중률만 높이지 말고 신선도와 API 호출 한도, 실패 시 표시를 함께 관리한다.</p>
+<h2>글 끝의 확인 질문</h2>
+<p>한 종류의 캐시 유효 기간을 모든 데이터에 적용하면 왜 문제가 되는가?</p>
+<h2>글의 범위와 참고 자료</h2>
+<p>제공된 학습 주제를 바탕으로 작성한 개념 설명이다. 원본 프로젝트의 구현·수치·실행 결과를 확인한 보고서는 아니다. 사례는 실제 성과나 확정된 설정값을 뜻하지 않는다.
+아래 자료는 관련 기술 동작의 참고 자료이며, 글의 설계 제안이나 사례 수치를 보장하는 근거는 아니다.</p>
+<p>업비트 개발자 센터: 호가 정보
+<a href="https://docs.upbit.com/kr/reference/list-orderbooks">https://docs.upbit.com/kr/reference/list-orderbooks</a></p>
+</article><footer>학습을 위한 기록 · 자료의 범위와 출처는 각 글에서 확인하세요.</footer></main></body></html>

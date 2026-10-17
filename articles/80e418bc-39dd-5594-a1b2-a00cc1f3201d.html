@@ -1,0 +1,15 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>화면 없는 로직 검사·장면 검사·실제 렌더 입력 검사의 역할과 한계 · 학습 서재</title><link rel="stylesheet" href="../style.css"></head><body><main class="reading"><nav><a href="../index.html">← 학습 서재</a></nav><header><div class="eyebrow">개발·운영</div><h1>화면 없는 로직 검사·장면 검사·실제 렌더 입력 검사의 역할과 한계</h1></header><article><p>화면 없는 검사는 상태 계산을 빠르게 확인하고 장면 검사는 노드 연결과 자원 로딩을 확인한다. 실제 렌더 입력 검사는 보이는 대상과 조작이 맞는지 확인한다.</p>
+<h2>1. 개념을 연결해 이해하기</h2>
+<p>검증을 여러 층으로 나누면 실패 원인을 좁히기 쉽다. 계산 검사가 통과해도 카메라 가림이나 UI 클릭 전달 문제는 실제 화면에서 남을 수 있다.</p>
+<h2>2. 사례로 살펴보기</h2>
+<p>판매액 계산과 중복 지급은 로직 검사로, 누락 노드는 장면 로딩으로, 3D 부위 클릭은 실제 카메라·해상도로 확인한다.</p>
+<h2>3. 주의할 점과 확인 방법</h2>
+<p>headless 실행을 실제 사용자 경험의 증거로 쓰면 안 된다. 반대로 모든 계산 오류를 사람이 화면에서만 찾는 것도 비효율적이다. 변경 영향에 맞춰 조합한다.</p>
+<h2>글 끝의 확인 질문</h2>
+<p>카메라 전환 문제를 로직 검사만으로 통과 처리할 수 없는 이유는 무엇인가?</p>
+<h2>글의 범위와 참고 자료</h2>
+<p>제공된 학습 주제를 바탕으로 작성한 개념 설명이다. 원본 프로젝트의 구현·수치·실행 결과를 확인한 보고서는 아니다. 사례는 실제 성과나 확정된 설정값을 뜻하지 않는다.
+아래 자료는 관련 기술 동작의 참고 자료이며, 글의 설계 제안이나 사례 수치를 보장하는 근거는 아니다.</p>
+<p>Godot 4.5: Command line tutorial
+<a href="https://docs.godotengine.org/en/4.5/tutorials/editor/command_line_tutorial.html">https://docs.godotengine.org/en/4.5/tutorials/editor/command_line_tutorial.html</a></p>
+</article><footer>학습을 위한 기록 · 자료의 범위와 출처는 각 글에서 확인하세요.</footer></main></body></html>

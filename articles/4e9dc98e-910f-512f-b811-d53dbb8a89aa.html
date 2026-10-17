@@ -1,0 +1,15 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>로그인 기반 자동 복구와 전원·절전·인터넷 장애의 한계 · 학습 서재</title><link rel="stylesheet" href="../style.css"></head><body><main class="reading"><nav><a href="../index.html">← 학습 서재</a></nav><header><div class="eyebrow">개발·운영</div><h1>로그인 기반 자동 복구와 전원·절전·인터넷 장애의 한계</h1></header><article><p>로그인 시 실행은 사용자가 로그인하는 사건을 시작 조건으로 삼는다. 전원 꺼짐·로그인 전 상태·절전 중에도 지속 실행된다는 뜻은 아니다.</p>
+<h2>1. 개념을 연결해 이해하기</h2>
+<p>복구 조건을 프로세스, 운영체제 세션, 전원, 네트워크로 나눠 보면 적용 범위를 설명하기 쉽다. 복구 뒤에는 상태 확인과 주문 대사가 필요하다.</p>
+<h2>2. 사례로 살펴보기</h2>
+<p>로그인 뒤 워커가 자동 시작해도 인터넷이 끊겼다면 시세와 주문 확인은 실패할 수 있다. 네트워크 복구 후 미확인 주문을 대사한 뒤 재개 조건을 검사한다.</p>
+<h2>3. 주의할 점과 확인 방법</h2>
+<p>절전 복귀와 재부팅은 서로 다른 시험이다. 자동 복구가 사용자의 중지 상태를 덮어쓰지 않게 하고 실제 PC에서 각각 확인해야 한다.</p>
+<h2>글 끝의 확인 질문</h2>
+<p>로그인 기반 복구로 해결할 수 없는 장애 세 가지는 무엇인가?</p>
+<h2>글의 범위와 참고 자료</h2>
+<p>제공된 학습 주제를 바탕으로 작성한 개념 설명이다. 원본 프로젝트의 구현·수치·실행 결과를 확인한 보고서는 아니다. 사례는 실제 성과나 확정된 설정값을 뜻하지 않는다.
+아래 자료는 관련 기술 동작의 참고 자료이며, 글의 설계 제안이나 사례 수치를 보장하는 근거는 아니다.</p>
+<p>Microsoft: Logon trigger
+<a href="https://learn.microsoft.com/en-us/windows/win32/taskschd/logontrigger">https://learn.microsoft.com/en-us/windows/win32/taskschd/logontrigger</a></p>
+</article><footer>학습을 위한 기록 · 자료의 범위와 출처는 각 글에서 확인하세요.</footer></main></body></html>

@@ -1,0 +1,15 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Godot 4.5.1의 장면·노드·GDScript 구성과 마당 진입점의 역할 · 학습 서재</title><link rel="stylesheet" href="../style.css"></head><body><main class="reading"><nav><a href="../index.html">← 학습 서재</a></nav><header><div class="eyebrow">개발·운영</div><h1>Godot 4.5.1의 장면·노드·GDScript 구성과 마당 진입점의 역할</h1></header><article><p>Godot에서 장면은 노드들의 구성으로 저장되는 재사용 단위이며 GDScript는 노드의 동작을 작성하는 언어다. 진입 장면은 실행 시작에 필요한 요소를 연결한다.</p>
+<h2>1. 개념을 연결해 이해하기</h2>
+<p>마당 진입점에서는 플레이어·카메라·입고 위치·작업대 같은 구성 요소를 연결할 수 있다. 구체적인 파일명과 역할은 실제 프로젝트 설정과 장면 트리를 읽어 확인해야 한다.</p>
+<h2>2. 사례로 살펴보기</h2>
+<p>마당 장면이 플레이어를 만들고 저장 상태를 전달한다고 가정하자. 테스트가 플레이어 이동만 확인한다면 마당 전체 대신 작은 테스트 장면으로 분리할 수 있다.</p>
+<h2>3. 주의할 점과 확인 방법</h2>
+<p>공식 4.5 문서는 4.5 계열 학습 참고 자료다. 4.5.1 실제 실행과 프로젝트 코드 검증을 대신하지 않는다. 모든 로직을 진입 스크립트에 몰아넣으면 책임이 섞인다.</p>
+<h2>글 끝의 확인 질문</h2>
+<p>장면 구성과 게임 규칙 중 어떤 책임을 마당 진입점에서 분리할 수 있는가?</p>
+<h2>글의 범위와 참고 자료</h2>
+<p>제공된 학습 주제를 바탕으로 작성한 개념 설명이다. 원본 프로젝트의 구현·수치·실행 결과를 확인한 보고서는 아니다. 사례는 실제 성과나 확정된 설정값을 뜻하지 않는다.
+아래 자료는 관련 기술 동작의 참고 자료이며, 글의 설계 제안이나 사례 수치를 보장하는 근거는 아니다.</p>
+<p>Godot 4.5: Nodes and scenes
+<a href="https://docs.godotengine.org/en/4.5/getting_started/step_by_step/nodes_and_scenes.html">https://docs.godotengine.org/en/4.5/getting_started/step_by_step/nodes_and_scenes.html</a></p>
+</article><footer>학습을 위한 기록 · 자료의 범위와 출처는 각 글에서 확인하세요.</footer></main></body></html>

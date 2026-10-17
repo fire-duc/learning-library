@@ -1,0 +1,467 @@
+{
+  "schema_version": 1,
+  "articles": [
+    {
+      "id": "7643d16c-0374-599b-a2f9-283f99737fde",
+      "title": "AI가 일하는 방식을 설계하기: 프롬프트와 컨텍스트 엔지니어링",
+      "category": "개발·운영",
+      "path": "articles/7643d16c-0374-599b-a2f9-283f99737fde.html",
+      "digest": "934466f537b8d3869913a8a3256eb41898028cedd2a3db9f5741ab2e4b515531"
+    },
+    {
+      "id": "9d480d77-9770-5062-802d-2524ff5cfe22",
+      "title": "전역 지침과 프로젝트 지침을 나누는 이유",
+      "category": "개발·운영",
+      "path": "articles/9d480d77-9770-5062-802d-2524ff5cfe22.html",
+      "digest": "6167adb4e4c29272f3299df2d8886c2f5fd7ed1bf3ea8e84cd899abc5ca5cfab"
+    },
+    {
+      "id": "f5ef0bb0-8c77-5385-a01d-b59a51379a23",
+      "title": "AI 작업 지침의 개선 효과를 측정하는 방법",
+      "category": "개발·운영",
+      "path": "articles/f5ef0bb0-8c77-5385-a01d-b59a51379a23.html",
+      "digest": "558dcab5bf90ea9f88d2f305f0ef9527bde16e9cc5496d6d82f005198cfd9f60"
+    },
+    {
+      "id": "205661a7-5a58-5acd-aae3-db244fb185f1",
+      "title": "AI 에이전트에게 어디까지 맡길 것인가",
+      "category": "개발·운영",
+      "path": "articles/205661a7-5a58-5acd-aae3-db244fb185f1.html",
+      "digest": "fbec7e21d0e901d85648edb6e078fa0267ba6cf30bc236e823046a55d1a5ce67"
+    },
+    {
+      "id": "ae5c6974-6f68-50f2-abc5-dfd6225c4604",
+      "title": "고물상의 입고·운반·분해·분류·계근·판매 흐름과 게임에서 단순화한 부분",
+      "category": "도메인",
+      "path": "articles/ae5c6974-6f68-50f2-abc5-dfd6225c4604.html",
+      "digest": "cb73176404bbb6e2e247bec8b744a8511ed111982f4beaeef7223ba0e3199026"
+    },
+    {
+      "id": "9f5272d4-fa51-5b2c-af83-41930a17715c",
+      "title": "회수량과 부품 보존 상태가 판매 가치에 미치는 영향",
+      "category": "도메인",
+      "path": "articles/9f5272d4-fa51-5b2c-af83-41930a17715c.html",
+      "digest": "1e474fe1f24cf2942a19c9b244dc33c1507877422aad1f5a603efe21bdef384b"
+    },
+    {
+      "id": "ca129f94-6698-5575-831c-0089d93b9cbf",
+      "title": "라디오 한 대와 첫 하루로 핵심 재미를 검증하는 시제품 범위 설정",
+      "category": "기획",
+      "path": "articles/ca129f94-6698-5575-831c-0089d93b9cbf.html",
+      "digest": "c68e14d3f1ccf79749120b5430321db31baccfeff2ed5b7c8f13670b3a75d024"
+    },
+    {
+      "id": "98b7d99b-1ec3-5a20-98d9-dedfbdb66b6c",
+      "title": "기능 검사 통과와 실제 재미·몰입감 검증을 구분하는 기준",
+      "category": "기획",
+      "path": "articles/98b7d99b-1ec3-5a20-98d9-dedfbdb66b6c.html",
+      "digest": "84dbc32b319350022946c141842d63a385d5f2947b22178d7b21e07a72ef4771"
+    },
+    {
+      "id": "ed303b63-9236-5188-9774-192be75c1c4c",
+      "title": "체력의 자연 감소 하한과 스태미나 소모·회복·과로 피해의 관계",
+      "category": "기획",
+      "path": "articles/ed303b63-9236-5188-9774-192be75c1c4c.html",
+      "digest": "95f61603c5e7bd6200347a5891c9bdc3fc420bd8eaa12ec9291cb9c1d6cecfeb"
+    },
+    {
+      "id": "063b345c-14cb-5311-95c8-6e38e5642a0e",
+      "title": "맨손과 손수레의 속도·비용 차이로 운반 방식의 선택을 만드는 방법",
+      "category": "기획",
+      "path": "articles/063b345c-14cb-5311-95c8-6e38e5642a0e.html",
+      "digest": "ba38076f149b423fef7fc86088680618241fd35efb455a999580a9d6f318b12c"
+    },
+    {
+      "id": "24282f99-df1c-5da7-a7e6-65a5defa0fc9",
+      "title": "기절·밤 귀가·휴식·수면으로 하루를 연결하고 시간 압박을 조절하는 방법",
+      "category": "기획",
+      "path": "articles/24282f99-df1c-5da7-a7e6-65a5defa0fc9.html",
+      "digest": "78bee62819d164af418d3af751b1f26e25fd65f726415ee4372596bbff694016"
+    },
+    {
+      "id": "21de797b-6e1a-5eac-a646-16f6b1eced34",
+      "title": "분류 구역과 트럭 통로를 함께 고려한 마당 동선 설계",
+      "category": "디자인",
+      "path": "articles/21de797b-6e1a-5eac-a646-16f6b1eced34.html",
+      "digest": "8382a07e00533f147cff6b71034d58db41439ffabbcf7e4bd46edfad1424fd75"
+    },
+    {
+      "id": "ee9f3f83-faea-5f13-b65f-e96f77422c4a",
+      "title": "최소 HUD와 외벽 시계·장부·계기판으로 정보를 전달하는 방법",
+      "category": "디자인",
+      "path": "articles/ee9f3f83-faea-5f13-b65f-e96f77422c4a.html",
+      "digest": "887ee4e98fc466d9bbb594c8ec8be89f97d48dc0be54a7ed7b23f0f0613b07a9"
+    },
+    {
+      "id": "edbe5d5b-1687-5cb3-8e8e-9e1ae79a412e",
+      "title": "마당 3인칭·실내 내려다보기·분해 1인칭 사이의 카메라 전환과 가림 처리",
+      "category": "디자인",
+      "path": "articles/edbe5d5b-1687-5cb3-8e8e-9e1ae79a412e.html",
+      "digest": "525e79fcc8e6a5637c7c9c3fe105f41d8fc818448accf420dc578606d5d02b60"
+    },
+    {
+      "id": "ecd5f755-a4cf-5a2b-8389-01e2e5eb1bbc",
+      "title": "따뜻한 컨테이너와 어수선한 마당을 색·조명·소품으로 구분하는 방법",
+      "category": "디자인",
+      "path": "articles/ecd5f755-a4cf-5a2b-8389-01e2e5eb1bbc.html",
+      "digest": "ea8d923f3ca6c82c8bfc8d8eace5f23809ed6c259ae49442bfc354276c27902c"
+    },
+    {
+      "id": "717141bf-c50e-5fc5-87f4-58e3de84b18f",
+      "title": "분해 동작·재질별 소리·회수 결과로 손맛을 전달하는 방법",
+      "category": "디자인",
+      "path": "articles/717141bf-c50e-5fc5-87f4-58e3de84b18f.html",
+      "digest": "085753c5d9f622657fec11e9e4fabe07a7f4efa71979e30ffc6d79821836b203"
+    },
+    {
+      "id": "1120848c-1e39-5c7d-b32a-fe4ef5fd29f9",
+      "title": "Godot 4.5.1의 장면·노드·GDScript 구성과 마당 진입점의 역할",
+      "category": "개발·운영",
+      "path": "articles/1120848c-1e39-5c7d-b32a-fe4ef5fd29f9.html",
+      "digest": "2cafe23c86371335a4432707b518c2852891789d5cd781e8b5cef99cb535e118"
+    },
+    {
+      "id": "9eae9091-230b-5958-a3cb-370fe734fb56",
+      "title": "캐릭터 이동·충돌·입력 매핑과 프레임에 독립적인 자원 계산",
+      "category": "개발·운영",
+      "path": "articles/9eae9091-230b-5958-a3cb-370fe734fb56.html",
+      "digest": "886f3fde4a7acb4b00c14a4b47457cadf1574d56d3df45229228113b9b602799"
+    },
+    {
+      "id": "f7b427cd-9afd-5b06-9454-17a27c116858",
+      "title": "화면 좌표와 3D 광선 선택을 연결한 분해·배치 입력 처리",
+      "category": "개발·운영",
+      "path": "articles/f7b427cd-9afd-5b06-9454-17a27c116858.html",
+      "digest": "3383eca7683d68de4ceffc4018a8b5fa66575aa0b358ab84987b488054f2e9ec"
+    },
+    {
+      "id": "023af211-0269-5777-ad81-1fada3d704e1",
+      "title": "부위의 선행 조건·분해 진행·손상·회수 재료 상태 관리",
+      "category": "개발·운영",
+      "path": "articles/023af211-0269-5777-ad81-1fada3d704e1.html",
+      "digest": "f9668b97117cd08b251cf5b81edb921c528c1160bb697747d1dfb90117425963"
+    },
+    {
+      "id": "18ab15d6-263a-51d0-a4d0-d224a19784f4",
+      "title": "물건의 바닥·손·손수레·작업대·판매 상태 전환과 쌓기 위치 관리",
+      "category": "개발·운영",
+      "path": "articles/18ab15d6-263a-51d0-a4d0-d224a19784f4.html",
+      "digest": "a497aa62634c95e6585b59a31b6f2a8baa9722b6597bf6297d8eab310e8a42b8"
+    },
+    {
+      "id": "d9274ccb-3434-513a-9a1a-3c0d87917fb8",
+      "title": "재료 중복 회수와 중복 판매를 방지하는 상태 갱신과 검증",
+      "category": "개발·운영",
+      "path": "articles/d9274ccb-3434-513a-9a1a-3c0d87917fb8.html",
+      "digest": "1f729757e4361421d57cc6f17e7b31edc32221a20de444bf6d1aaa3ff8530ae0"
+    },
+    {
+      "id": "573e9a2e-9832-5352-a33c-de1ab4545d95",
+      "title": "저장 파일 검증·임시 파일 교체·백업 복원과 기존 캠페인 저장 분리",
+      "category": "개발·운영",
+      "path": "articles/573e9a2e-9832-5352-a33c-de1ab4545d95.html",
+      "digest": "cd5c7b41c0f4a5c17383608185cfd9eeb0d22f87cb1bf68732b00d0b0d2c76ac"
+    },
+    {
+      "id": "80e418bc-39dd-5594-a1b2-a00cc1f3201d",
+      "title": "화면 없는 로직 검사·장면 검사·실제 렌더 입력 검사의 역할과 한계",
+      "category": "개발·운영",
+      "path": "articles/80e418bc-39dd-5594-a1b2-a00cc1f3201d.html",
+      "digest": "645491fef37800f90d478744a2aae100b93927e72db0362870eb62e349bc0c2a"
+    },
+    {
+      "id": "0d60fc01-ea64-5471-9e06-693ee0d81238",
+      "title": "Windows 실행본 제작·배포 파일 구성·라이선스 포함·사용자 저장 보존",
+      "category": "개발·운영",
+      "path": "articles/0d60fc01-ea64-5471-9e06-693ee0d81238.html",
+      "digest": "7f0131ed6eea13e60eb3b679acb58153bf7eb394a33e47ade9c4b4c3b39a6b19"
+    },
+    {
+      "id": "13fe368f-828f-5ed2-8452-ef86574198e4",
+      "title": "실제 시세 모의매매·합성 데이터·실거래의 차이",
+      "category": "도메인",
+      "path": "articles/13fe368f-828f-5ed2-8452-ef86574198e4.html",
+      "digest": "b9dd6ab04d8ed36ef2fce08b3ba0a79d73d87493ce5f458ec8a42fc65a4ca883"
+    },
+    {
+      "id": "7a5071dd-ff52-5773-8e61-9ee0d529aef3",
+      "title": "주문·체결·미체결·부분 체결과 주문 결과 대사",
+      "category": "도메인",
+      "path": "articles/7a5071dd-ff52-5773-8e61-9ee0d529aef3.html",
+      "digest": "23f210001f9a4b211f54c99b3fcde5a179e0aab47fa30957986611e4e4b8db9c"
+    },
+    {
+      "id": "3ce33d63-07ef-50d4-b86b-7e4495acfa1f",
+      "title": "현금·보유 자산·평가손익·실현손익의 차이",
+      "category": "도메인",
+      "path": "articles/3ce33d63-07ef-50d4-b86b-7e4495acfa1f.html",
+      "digest": "d79273fdd08fe2c5a1b73b95a93d046cdde434659ab7fc7c6fbabb2cae433444"
+    },
+    {
+      "id": "5a2ebdce-2ece-5224-a399-eba0123b042f",
+      "title": "거래대금 TOP 10 모니터링과 TOP 5 신규 매수 기준",
+      "category": "도메인",
+      "path": "articles/5a2ebdce-2ece-5224-a399-eba0123b042f.html",
+      "digest": "8c4a862279402d220ea109e49cbf044fedcedc40b6850286f9aee34f87e49c24"
+    },
+    {
+      "id": "5c7781ed-6be8-5282-a9f4-ff3c5a41dd62",
+      "title": "고정 매수 금액·최대 보유 수·금액 재분배와 중복 매수 방지",
+      "category": "도메인",
+      "path": "articles/5c7781ed-6be8-5282-a9f4-ff3c5a41dd62.html",
+      "digest": "25f94b58dfe504ad0824b38ebc1e7186258ea327ecaf2a985b438b38b4be428f"
+    },
+    {
+      "id": "be4ab61e-5704-53d2-b388-8231b789ebca",
+      "title": "매수 신호와 보유 종목의 순위 이탈 처리",
+      "category": "도메인",
+      "path": "articles/be4ab61e-5704-53d2-b388-8231b789ebca.html",
+      "digest": "fa259f0e4a7c94905e0d27cef5eab52be0607a8ca420726668c63f83c9367d49"
+    },
+    {
+      "id": "b7f7f9ac-718e-5452-96c6-7df2a2b00415",
+      "title": "손절·익절·위험 한도와 보유분 보호 감시",
+      "category": "도메인",
+      "path": "articles/b7f7f9ac-718e-5452-96c6-7df2a2b00415.html",
+      "digest": "c55d76ca5556c4bb0f1a78afcc0e4fbb04bd154a1de16a83d90ac46ca4b69f4b"
+    },
+    {
+      "id": "f700d416-8484-5ee0-ba58-18bd08fda372",
+      "title": "현재가·호가·스프레드·슬리피지·수수료의 차이",
+      "category": "도메인",
+      "path": "articles/f700d416-8484-5ee0-ba58-18bd08fda372.html",
+      "digest": "e6f8ae32b47d49bd12f8d6ff1496d92025315fa786bdf2837559cc9445a027f0"
+    },
+    {
+      "id": "9d6e4ac9-2ed7-506d-8036-f19f5721c15f",
+      "title": "시세 신선도·시계 오차·완성 봉 부족과 신규 매수 제외",
+      "category": "도메인",
+      "path": "articles/9d6e4ac9-2ed7-506d-8036-f19f5721c15f.html",
+      "digest": "0f1bd2e3839577224c558e7a495184e1fdffc1ee1e55ca6f15ad293e9aabfaeb"
+    },
+    {
+      "id": "7978f773-a637-575e-be90-601b109678aa",
+      "title": "출처·기간·전략 버전별 성과와 미확인 거래의 취급",
+      "category": "도메인",
+      "path": "articles/7978f773-a637-575e-be90-601b109678aa.html",
+      "digest": "e8bc3e0e3b84d3d52ae338d3143f47956b3ca54bb31dcd457df96c8e9240b412"
+    },
+    {
+      "id": "a6844f32-9b87-5b61-bef4-24f0ae450b75",
+      "title": "모의매매 표본 수·검증 기간과 전략 성과의 불확실성",
+      "category": "도메인",
+      "path": "articles/a6844f32-9b87-5b61-bef4-24f0ae450b75.html",
+      "digest": "1f9f5436916882edbf3c4cfaf3ea3073b6f20139a69438c22cfd6f6f3fafdcdb"
+    },
+    {
+      "id": "d484ecb4-7a41-5c56-ae2f-1a6a94f86679",
+      "title": "백테스트 과최적화·미래 정보 참조와 별도 기간 검증",
+      "category": "도메인",
+      "path": "articles/d484ecb4-7a41-5c56-ae2f-1a6a94f86679.html",
+      "digest": "f65f24e4f7b1e3e1f82806c393503f6fc6c656c59f697ebe0f9c55e9132cfd49"
+    },
+    {
+      "id": "c86ee237-e692-5538-a000-8572561373cb",
+      "title": "상승·하락·횡보 국면과 EMA·ADX·ATR·모멘텀",
+      "category": "도메인",
+      "path": "articles/c86ee237-e692-5538-a000-8572561373cb.html",
+      "digest": "bb264125bcbae553a40a645d782e4f06e3fbb1d0dc599ae264386afad8d2080b"
+    },
+    {
+      "id": "d19565e7-1bc6-5296-9b8a-6af0bbe73908",
+      "title": "최종 청산 기준 성과·부분 매도·기간 현금 흐름의 차이",
+      "category": "도메인",
+      "path": "articles/d19565e7-1bc6-5296-9b8a-6af0bbe73908.html",
+      "digest": "276cc4e952883190d5f5bc810b535197a0e2cd56a9272f00a38dc514533098b5"
+    },
+    {
+      "id": "fcdaee1d-e26a-5bd0-913a-80c606575fae",
+      "title": "낙폭 계산에 필요한 자산 시계열과 현재 집계의 한계",
+      "category": "도메인",
+      "path": "articles/fcdaee1d-e26a-5bd0-913a-80c606575fae.html",
+      "digest": "d58ece7994133502c3e2157e6eff133e23552338eb32123e30474bc4c1bb7f8f"
+    },
+    {
+      "id": "64148ef7-e7f7-5252-8180-2f3b4011a162",
+      "title": "프로그램 정상 작동과 매매 전략 유효성의 판단 기준",
+      "category": "기획",
+      "path": "articles/64148ef7-e7f7-5252-8180-2f3b4011a162.html",
+      "digest": "d929e79417948eb092134ac5cd6ec27bd0768d7320f4ece43aef711c5f4dc97a"
+    },
+    {
+      "id": "8251816c-d108-5bc9-8e65-258e0dca41e1",
+      "title": "신규 진입 중지·위험 중단·청산 요청·안전 재심사의 차이",
+      "category": "기획",
+      "path": "articles/8251816c-d108-5bc9-8e65-258e0dca41e1.html",
+      "digest": "96c8096da51e1cd6351b5b02ab96c5e9dd678aa719e15009802ee672075ee5e1"
+    },
+    {
+      "id": "d70d4d43-5c9a-56a0-b908-b41a53ecb038",
+      "title": "스테이블코인 포함 여부와 매매 대상 선정 기준",
+      "category": "기획",
+      "path": "articles/d70d4d43-5c9a-56a0-b908-b41a53ecb038.html",
+      "digest": "62a0e5c4422b15dbe1125687ce238e5b3eaf38eb55b33b2d4ef677d6ef79ac22"
+    },
+    {
+      "id": "305592a9-82d8-56b3-98eb-950af44c27d8",
+      "title": "구현 완료·테스트 통과·실행 확인의 구분",
+      "category": "기획",
+      "path": "articles/305592a9-82d8-56b3-98eb-950af44c27d8.html",
+      "digest": "0614cfdcd8dbcb8ee4254eb099c9b14be37899a68da136043a4a08c276066337"
+    },
+    {
+      "id": "19a2d475-175d-5b75-a7c2-ecf5d72ccdee",
+      "title": "개인용 도구와 다중 사용자 서비스의 요구사항 차이",
+      "category": "기획",
+      "path": "articles/19a2d475-175d-5b75-a7c2-ecf5d72ccdee.html",
+      "digest": "5ea6e1c7671d943b14aae8d665feae01888835e41495139b2ddc409a5da2a70f"
+    },
+    {
+      "id": "4a138548-ffc9-5f79-bb45-36801882de55",
+      "title": "브라우저·서버·매매 워커·SQLite 장부의 역할",
+      "category": "개발·운영",
+      "path": "articles/4a138548-ffc9-5f79-bb45-36801882de55.html",
+      "digest": "76353b641906b19f20894bd9602b8bdddceecabba45d691fcc6717c145b09811"
+    },
+    {
+      "id": "6808d3c4-d778-5f2b-b1eb-eea97312b36e",
+      "title": "서버 재시작과 사용자 중지 상태 보존",
+      "category": "개발·운영",
+      "path": "articles/6808d3c4-d778-5f2b-b1eb-eea97312b36e.html",
+      "digest": "1983900f0e8d3ecce2c971ca18124bf0e1116e8ae0178f8f9fd0bafc1ad673bf"
+    },
+    {
+      "id": "4e9dc98e-910f-512f-b811-d53dbb8a89aa",
+      "title": "로그인 기반 자동 복구와 전원·절전·인터넷 장애의 한계",
+      "category": "개발·운영",
+      "path": "articles/4e9dc98e-910f-512f-b811-d53dbb8a89aa.html",
+      "digest": "6b5cd99715010cee3ee1a1dd9a7b2480806e827e104ce9149d4efdaf2a180ad9"
+    },
+    {
+      "id": "5b4c0dae-f0a9-54a0-85a8-ecce12f9184c",
+      "title": "로컬 접속·Tailscale·Caddy·허용 기기 제한과 Forbidden·502 오류",
+      "category": "개발·운영",
+      "path": "articles/5b4c0dae-f0a9-54a0-85a8-ecce12f9184c.html",
+      "digest": "8fb4608ee19976b917c66ed5d264a58b0021ff913c20e3c75a93d58e4d8fb3ad"
+    },
+    {
+      "id": "7f9cdaec-a3f3-5bdd-8fc8-02d68c06c9d6",
+      "title": "장부 백업·복원과 토큰·Windows 보안 저장소의 보존",
+      "category": "개발·운영",
+      "path": "articles/7f9cdaec-a3f3-5bdd-8fc8-02d68c06c9d6.html",
+      "digest": "fa645649d112f0e94d30601923e6e183ead67305a4d7386a99e7b8913bad36fb"
+    },
+    {
+      "id": "d3e8e753-ded4-5d19-ae24-043b6dd6504b",
+      "title": "텔레그램 알림과 서버 전체 장애 감지의 차이",
+      "category": "개발·운영",
+      "path": "articles/d3e8e753-ded4-5d19-ae24-043b6dd6504b.html",
+      "digest": "d3e40b5c69fd5278d8596cadff64d326ac112990a7f575b0b81775ae182ca03b"
+    },
+    {
+      "id": "a89abc85-97ea-57e1-b011-d05e35354fe7",
+      "title": "보호 감시·주문 처리·화면 조회의 역할 분리",
+      "category": "개발·운영",
+      "path": "articles/a89abc85-97ea-57e1-b011-d05e35354fe7.html",
+      "digest": "a3dd75ab970d9bd6c19e0a9f9514dae23c74061cf88f1755b35f20b1b695ea9e"
+    },
+    {
+      "id": "c5108a16-47ef-57fd-b962-565070d5ca0d",
+      "title": "SQLite 트랜잭션·잠금·읽기 전용 조회와 장부 일관성",
+      "category": "개발·운영",
+      "path": "articles/c5108a16-47ef-57fd-b962-565070d5ca0d.html",
+      "digest": "3bbf35ea64233f07c9b77a49208d1e877b4349439c22d46a501bc27f3d70aad7"
+    },
+    {
+      "id": "2fa528e8-88b3-5daf-ac17-9cffc0321760",
+      "title": "현재가 캐시·성과 캐시·호가 재조회와 데이터 지연",
+      "category": "개발·운영",
+      "path": "articles/2fa528e8-88b3-5daf-ac17-9cffc0321760.html",
+      "digest": "35651afc1c13470665047c229af5c1e1b54530ea5ec61f1f092ab63b260826b8"
+    },
+    {
+      "id": "e01c4f8b-eba5-575f-a059-4432c9e95059",
+      "title": "단일 워커·통신 타임아웃·종목별 장애 격리의 한계",
+      "category": "개발·운영",
+      "path": "articles/e01c4f8b-eba5-575f-a059-4432c9e95059.html",
+      "digest": "82af8eb00e4107c408ff0d53fc6b61d7d096278b4454ae5a3e9cd3f702529303"
+    },
+    {
+      "id": "3a54c6ff-ecb1-577f-b17b-102eb9c5700b",
+      "title": "변경 영향에 맞는 회귀 테스트와 배포 전 미처리 주문 확인",
+      "category": "개발·운영",
+      "path": "articles/3a54c6ff-ecb1-577f-b17b-102eb9c5700b.html",
+      "digest": "5db1d292daebe5fd9666d5cd4efaa2945e04e1570df8c7e3293565119a74f3e4"
+    },
+    {
+      "id": "ecacf6eb-aecc-5c49-8b7d-883bc197552b",
+      "title": "자동 복구와 배포의 동시 실행 방지",
+      "category": "개발·운영",
+      "path": "articles/ecacf6eb-aecc-5c49-8b7d-883bc197552b.html",
+      "digest": "6d53fc643a5ea21b23e7642a03197ad4952295bfacb094ae6b0e8ecc60f06519"
+    },
+    {
+      "id": "570283cb-f973-56fc-bbf2-4b324f478500",
+      "title": "자동 백업·복원 검증과 실제 재부팅 복구 검증",
+      "category": "개발·운영",
+      "path": "articles/570283cb-f973-56fc-bbf2-4b324f478500.html",
+      "digest": "b8cd387d5268abe40431c6e37c5c487b1cbc4fd69f9897896addb35624d61cbb"
+    },
+    {
+      "id": "bb65d327-702f-5720-b5c7-57dfa5466e86",
+      "title": "외부 감시를 통한 전원·인터넷 전체 장애 감지",
+      "category": "개발·운영",
+      "path": "articles/bb65d327-702f-5720-b5c7-57dfa5466e86.html",
+      "digest": "8726547ff2082d1ca640642675696fd98dacf3650c5c9c7ed1290bba774201c5"
+    },
+    {
+      "id": "55018f06-b73b-5cec-a7b6-dee75cb2f265",
+      "title": "다중 사용자 인증·권한·장부 격리",
+      "category": "개발·운영",
+      "path": "articles/55018f06-b73b-5cec-a7b6-dee75cb2f265.html",
+      "digest": "6e6eb83c8ff250d874bb7ca9672178bfb43ef23806f11257f4a24fddaed10bcb"
+    },
+    {
+      "id": "7aed3c0d-03c8-5b99-868f-005bf8dd0e1d",
+      "title": "실행·대기·제외·중단 상태와 오류의 구분",
+      "category": "디자인",
+      "path": "articles/7aed3c0d-03c8-5b99-868f-005bf8dd0e1d.html",
+      "digest": "f46f6128e1ebcc1b4d97eeac7d7b0b6261398c2b0811151a793c60283bb6019c"
+    },
+    {
+      "id": "24a7a93c-c77a-50a2-b275-950bf6586df3",
+      "title": "모바일 탭·리스트 정렬·차트 연결과 정보 우선순위",
+      "category": "디자인",
+      "path": "articles/24a7a93c-c77a-50a2-b275-950bf6586df3.html",
+      "digest": "0977ea66ba357a957a886efcfb13f42c4a156f233e88d9375f7b1a4eddbd02c2"
+    },
+    {
+      "id": "10c6711d-5633-5a61-b821-cd442d72a150",
+      "title": "툴팁 설명과 반드시 화면에 보여야 하는 중요 정보",
+      "category": "디자인",
+      "path": "articles/10c6711d-5633-5a61-b821-cd442d72a150.html",
+      "digest": "b8168b198cb0f6fabe5dc04caae00e899f92bdc9836b3c78d28ffc0fb8ed3c8c"
+    },
+    {
+      "id": "bd7f930d-03f9-5aa7-a61e-ef97b70f89a9",
+      "title": "화면 업데이트 시 미저장 입력 보호와 오래된 데이터 표시",
+      "category": "디자인",
+      "path": "articles/bd7f930d-03f9-5aa7-a61e-ef97b70f89a9.html",
+      "digest": "c276c0f7e33e5e39be0ebf4aeb836a2647991c3b3d0ae483f23cd826ae3663e1"
+    },
+    {
+      "id": "df1267f7-bee2-5581-8fba-08ec83c2fbd2",
+      "title": "목표 사용자·사용 문제·가치 제안",
+      "category": "마케팅",
+      "path": "articles/df1267f7-bee2-5581-8fba-08ec83c2fbd2.html",
+      "digest": "f8cda3707baf4a2f748a0b7e4dfa6a0ecc7f4030f19d1b5f722440b15cda4d58"
+    },
+    {
+      "id": "17ecdded-7132-53a2-92b8-9976e3d59b0b",
+      "title": "전략 성과 공개 시 검증 범위와 표현 기준",
+      "category": "마케팅",
+      "path": "articles/17ecdded-7132-53a2-92b8-9976e3d59b0b.html",
+      "digest": "76b95b04021ed465018d123af644ba0d90d414e1b88d35c16c20c783bc06311d"
+    }
+  ]
+}
