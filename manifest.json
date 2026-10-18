@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "site_digest": "bea01bb285aa7091984ef38901e1564f17a463321cd8b0225b79cbd2e3d029ef",
+  "site_digest": "39fa4b1467795a3ed00157bb09fff47fc9769371810949cb57575e299d96fc71",
   "articles": [
     {
       "id": "7643d16c-0374-599b-a2f9-283f99737fde",
@@ -399,15 +399,6 @@
       "digest": "12ad83c2be53c18ce3baa09ab2fd2d95270db17e2747ea171e3384b0417d9c85"
     },
     {
-      "id": "19a2d475-175d-5b75-a7c2-ecf5d72ccdee",
-      "title": "개인용 도구와 다중 사용자 서비스의 요구사항 차이",
-      "category": "기획",
-      "area": "금융·트레이딩",
-      "registration_order": 45,
-      "path": "articles/19a2d475-175d-5b75-a7c2-ecf5d72ccdee.html",
-      "digest": "b36dd72e558cf876a3613634aa24b7c019696205fb80487bc75198ff0a545e6e"
-    },
-    {
       "id": "4a138548-ffc9-5f79-bb45-36801882de55",
       "title": "브라우저·서버·매매 워커·SQLite 장부의 역할",
       "category": "개발·운영",
@@ -451,15 +442,6 @@
       "registration_order": 50,
       "path": "articles/7f9cdaec-a3f3-5bdd-8fc8-02d68c06c9d6.html",
       "digest": "505632ff201d32a4bceea7c5c44b928d07d83c20183737fc5b3909d7e59de73e"
-    },
-    {
-      "id": "d3e8e753-ded4-5d19-ae24-043b6dd6504b",
-      "title": "텔레그램 알림과 서버 전체 장애 감지의 차이",
-      "category": "개발·운영",
-      "area": "금융·트레이딩",
-      "registration_order": 51,
-      "path": "articles/d3e8e753-ded4-5d19-ae24-043b6dd6504b.html",
-      "digest": "03ec2aa4c987425f8a2e3db854f4162cef6b98246c83cad65c840e1af9946e15"
     },
     {
       "id": "a89abc85-97ea-57e1-b011-d05e35354fe7",
@@ -531,7 +513,7 @@
       "area": "금융·트레이딩",
       "registration_order": 59,
       "path": "articles/bb65d327-702f-5720-b5c7-57dfa5466e86.html",
-      "digest": "7e22d12c3b185b7a7a0f15d6093cc6d5fa9d69e9c3f5f378ac5d95cc1f24f23d"
+      "digest": "a00f42b0236722052ec36aa6fe88542ecc5b74b1658f740cb637dd72fc4acb9d"
     },
     {
       "id": "55018f06-b73b-5cec-a7b6-dee75cb2f265",
@@ -540,7 +522,7 @@
       "area": "금융·트레이딩",
       "registration_order": 60,
       "path": "articles/55018f06-b73b-5cec-a7b6-dee75cb2f265.html",
-      "digest": "9cf7bef7b44ef53e95f66e2c0af704da0ecc3e45b135605ef97815d95aabbf82"
+      "digest": "9bab154af43cd2367b3a42862d0d677bf87eefe50edd64ec5a59eef0e34845b4"
     },
     {
       "id": "7aed3c0d-03c8-5b99-868f-005bf8dd0e1d",
@@ -596,5 +578,9 @@
       "path": "articles/17ecdded-7132-53a2-92b8-9976e3d59b0b.html",
       "digest": "2e2857789cd0f2f01a794ccd3a0c883326b4cfa7ab38c13e52a01c46be12db5c"
     }
-  ]
+  ],
+  "redirects": {
+    "19a2d475-175d-5b75-a7c2-ecf5d72ccdee": "55018f06-b73b-5cec-a7b6-dee75cb2f265",
+    "d3e8e753-ded4-5d19-ae24-043b6dd6504b": "bb65d327-702f-5720-b5c7-57dfa5466e86"
+  }
 }
