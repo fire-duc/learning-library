@@ -9,7 +9,7 @@
       "area": "AI 활용·자동화",
       "registration_order": 1,
       "path": "articles/7643d16c-0374-599b-a2f9-283f99737fde.html",
-      "digest": "2f77b2ab22accd881e43b6fd832ce40fe9785c9180cc4a8f6e2b694311d48bc4"
+      "digest": "e7bee5f1b7828b0c1ed316d39c2abb3c34242e68a56d9782190c8a6f6c06a76d"
     },
     {
       "id": "9d480d77-9770-5062-802d-2524ff5cfe22",
@@ -18,7 +18,7 @@
       "area": "AI 활용·자동화",
       "registration_order": 2,
       "path": "articles/9d480d77-9770-5062-802d-2524ff5cfe22.html",
-      "digest": "e5cfb08332c09edfb35b6e9e9b0e782136fabdc9e16bf7c90b8158078e685997"
+      "digest": "1b3357d6673a86dcb1f88975a4c1c55b3a60d409be59f4b81fe826310939e974"
     },
     {
       "id": "f5ef0bb0-8c77-5385-a01d-b59a51379a23",
@@ -27,7 +27,7 @@
       "area": "AI 활용·자동화",
       "registration_order": 3,
       "path": "articles/f5ef0bb0-8c77-5385-a01d-b59a51379a23.html",
-      "digest": "47a5cdea4df94c6c86fd5ef47bd9669e0de7191e4daedda1ff0eda65ccf40f4b"
+      "digest": "0ca0ca635d4bbb9f0e094af5f5029f7a3d7ed5fdc8d86b4cde7976c168c376b6"
     },
     {
       "id": "205661a7-5a58-5acd-aae3-db244fb185f1",
@@ -36,7 +36,7 @@
       "area": "AI 활용·자동화",
       "registration_order": 4,
       "path": "articles/205661a7-5a58-5acd-aae3-db244fb185f1.html",
-      "digest": "66c8372c4ad030bbb4a6ed40d734b2b4b346c9faf4feb4a31e5cdc11c3e88b1c"
+      "digest": "90bab90334b155ddad0e33bf5049b7558598b8575bc8d3c212d4a4b6d377d924"
     },
     {
       "id": "ae5c6974-6f68-50f2-abc5-dfd6225c4604",
@@ -45,7 +45,7 @@
       "area": "게임 개발",
       "registration_order": 5,
       "path": "articles/ae5c6974-6f68-50f2-abc5-dfd6225c4604.html",
-      "digest": "a3f402b7de833c28669db5658a117c6513eba33975bfd626da37933ad0fb1da8"
+      "digest": "54b9e519b1fdadd32cfaf7d04e698d71fefe42b870993d42189369b05743b1b2"
     },
     {
       "id": "9f5272d4-fa51-5b2c-af83-41930a17715c",
@@ -54,7 +54,7 @@
       "area": "게임 개발",
       "registration_order": 6,
       "path": "articles/9f5272d4-fa51-5b2c-af83-41930a17715c.html",
-      "digest": "30c1968425ab5d53936b40dc27b3113cd0b206f848b280ad6d79d372bf92eba6"
+      "digest": "44e84f4320c7c203bef8f3a2b1a15fb7c2e7fd9fb688cb9988cdd7bbc76a77ca"
     },
     {
       "id": "ca129f94-6698-5575-831c-0089d93b9cbf",
@@ -63,7 +63,7 @@
       "area": "게임 개발",
       "registration_order": 7,
       "path": "articles/ca129f94-6698-5575-831c-0089d93b9cbf.html",
-      "digest": "e7e755f72035ccfdd42756dbe14260cd6b8e30c6e3b6ef795d95bb98c3215a96"
+      "digest": "0a0b6100517e4805539d7404425648c2c7ea26ab8c1937428f83930419be79d1"
     },
     {
       "id": "98b7d99b-1ec3-5a20-98d9-dedfbdb66b6c",
@@ -72,7 +72,7 @@
       "area": "게임 개발",
       "registration_order": 8,
       "path": "articles/98b7d99b-1ec3-5a20-98d9-dedfbdb66b6c.html",
-      "digest": "38a47d589a961ee5b7630e460bab72ec1891c880c66e6b513d9dce067578f00f"
+      "digest": "5c2806b68c763aff298c7b24d1765e2f50182a565bb5b9b335853fa48326ab04"
     },
     {
       "id": "ed303b63-9236-5188-9774-192be75c1c4c",
@@ -81,7 +81,7 @@
       "area": "게임 개발",
       "registration_order": 9,
       "path": "articles/ed303b63-9236-5188-9774-192be75c1c4c.html",
-      "digest": "9c2936163662dc2673763f414b549af451a4432f3d7d685cc902f67ee280d76d"
+      "digest": "d397e9a9b548c7d14e155e4ed24fd0d339759f4a5626f43bdccf702a2590eede"
     },
     {
       "id": "063b345c-14cb-5311-95c8-6e38e5642a0e",
@@ -90,7 +90,7 @@
       "area": "게임 개발",
       "registration_order": 10,
       "path": "articles/063b345c-14cb-5311-95c8-6e38e5642a0e.html",
-      "digest": "4b39283cedc9ab60ca99f38a87a6b38a7712f9dc9ef7ed6ce73a0aabbe62bd8d"
+      "digest": "243a194f2dcf6a818da9dcda23a94f2545cae42151379368d0b9aacabe194f14"
     },
     {
       "id": "24282f99-df1c-5da7-a7e6-65a5defa0fc9",
@@ -99,7 +99,7 @@
       "area": "게임 개발",
       "registration_order": 11,
       "path": "articles/24282f99-df1c-5da7-a7e6-65a5defa0fc9.html",
-      "digest": "6afabe2f1661a2664692840bcd8a89b7123e857ab13b38dfa3999d5b96ce74d1"
+      "digest": "de9996778c8ad53b18a1745375f6d2d4d16a3547e67c8d5d5e52bec9ad1f7d23"
     },
     {
       "id": "21de797b-6e1a-5eac-a646-16f6b1eced34",
@@ -108,7 +108,7 @@
       "area": "게임 개발",
       "registration_order": 12,
       "path": "articles/21de797b-6e1a-5eac-a646-16f6b1eced34.html",
-      "digest": "8a9ad60c6b3bbc488f1af3524e9ebf90ee5b4a60bdfb495332eea231b5a0d9d7"
+      "digest": "c68c907a6125eb99e27a580ca3237434a0660b8e76671cdb1e2c0893d1eb1b16"
     },
     {
       "id": "ee9f3f83-faea-5f13-b65f-e96f77422c4a",
@@ -117,7 +117,7 @@
       "area": "게임 개발",
       "registration_order": 13,
       "path": "articles/ee9f3f83-faea-5f13-b65f-e96f77422c4a.html",
-      "digest": "670bbd06b93633615e0fd4073af81e7048f90144b57819b28127df1b42e6a1d1"
+      "digest": "32742b97038b688b29a906f683bc917559182bd9955345bf0f8cb629ea455750"
     },
     {
       "id": "edbe5d5b-1687-5cb3-8e8e-9e1ae79a412e",
@@ -126,7 +126,7 @@
       "area": "게임 개발",
       "registration_order": 14,
       "path": "articles/edbe5d5b-1687-5cb3-8e8e-9e1ae79a412e.html",
-      "digest": "19820bd5014242c35571dfdb82106a46a0712c18c48d97705743a3a0bc11b481"
+      "digest": "306f1f8990d3831b75e04438755929b494a3a24c1a720d0481942b3c80e1ea03"
     },
     {
       "id": "ecd5f755-a4cf-5a2b-8389-01e2e5eb1bbc",
@@ -135,7 +135,7 @@
       "area": "게임 개발",
       "registration_order": 15,
       "path": "articles/ecd5f755-a4cf-5a2b-8389-01e2e5eb1bbc.html",
-      "digest": "eb6c0c74e978be8f5106ffa6e40373a80a9d3e3b40ca6005399d4737509e9e8f"
+      "digest": "ecb9e3ae5d496213e06d15afea9c8dc1a124934cbfabbc622a5a3cb4198f027c"
     },
     {
       "id": "717141bf-c50e-5fc5-87f4-58e3de84b18f",
@@ -144,7 +144,7 @@
       "area": "게임 개발",
       "registration_order": 16,
       "path": "articles/717141bf-c50e-5fc5-87f4-58e3de84b18f.html",
-      "digest": "a52ac5a1f269c0b781f71fcf3967b53111b1ae57755895bf11fd94927666db79"
+      "digest": "af2ea621e3ab240e377b669ffe57a6841c3cdd8ddf7d73d4bcde175abda974c4"
     },
     {
       "id": "1120848c-1e39-5c7d-b32a-fe4ef5fd29f9",
@@ -153,7 +153,7 @@
       "area": "게임 개발",
       "registration_order": 17,
       "path": "articles/1120848c-1e39-5c7d-b32a-fe4ef5fd29f9.html",
-      "digest": "4122ad3aea79d51af03c6a15ea820444cbe8c36bb7bacd670af4b050c3877d99"
+      "digest": "a475c16479c0973f199b85b4a4fb16bf96a1f9c6fc7afd7486fee136e0676b88"
     },
     {
       "id": "9eae9091-230b-5958-a3cb-370fe734fb56",
@@ -162,7 +162,7 @@
       "area": "게임 개발",
       "registration_order": 18,
       "path": "articles/9eae9091-230b-5958-a3cb-370fe734fb56.html",
-      "digest": "bfa924f75175d7adccc9e00663773934ad87b14892236f78573a4e3151a2ab87"
+      "digest": "aa9d1135e31c43c927d78a0672b78906282bbb0f87ee8e07143deed15c9e6da3"
     },
     {
       "id": "f7b427cd-9afd-5b06-9454-17a27c116858",
@@ -171,7 +171,7 @@
       "area": "게임 개발",
       "registration_order": 19,
       "path": "articles/f7b427cd-9afd-5b06-9454-17a27c116858.html",
-      "digest": "cd3097a03fa2ce16345ac4a25f08eb3b2208f26b48352b5a21901a3a3a4aa21c"
+      "digest": "247ccd96ce8498c860a9453c5a771d6df92c7b3172858d81e8e8e6746efcebd5"
     },
     {
       "id": "023af211-0269-5777-ad81-1fada3d704e1",
@@ -180,7 +180,7 @@
       "area": "게임 개발",
       "registration_order": 20,
       "path": "articles/023af211-0269-5777-ad81-1fada3d704e1.html",
-      "digest": "856817c9b2e7f902ef0396c98e11262093d209927e90c5ffa9ba2c27d60f91cb"
+      "digest": "f03a7c4490a768e650a31f9dbc675d67992dcaece78ce5265300feca2c27289d"
     },
     {
       "id": "18ab15d6-263a-51d0-a4d0-d224a19784f4",
@@ -189,7 +189,7 @@
       "area": "게임 개발",
       "registration_order": 21,
       "path": "articles/18ab15d6-263a-51d0-a4d0-d224a19784f4.html",
-      "digest": "a53be9edbdd89360d601d92cb4002b15eaf6bba480e13f4f2415d166bbad2656"
+      "digest": "1aee07a2fba4c996450d8a9604556488987ab5891a7fc57ea00f8f072f53ad68"
     },
     {
       "id": "d9274ccb-3434-513a-9a1a-3c0d87917fb8",
@@ -198,7 +198,7 @@
       "area": "게임 개발",
       "registration_order": 22,
       "path": "articles/d9274ccb-3434-513a-9a1a-3c0d87917fb8.html",
-      "digest": "acf4482ce233e949d7d2a821c27702dc71069a0f468cfc5f331c3bad1a711ad5"
+      "digest": "2bb18b95de5679a225405d4a7d4ea26086fbb7b672ecc7d600c342dac0458b32"
     },
     {
       "id": "573e9a2e-9832-5352-a33c-de1ab4545d95",
@@ -207,7 +207,7 @@
       "area": "게임 개발",
       "registration_order": 23,
       "path": "articles/573e9a2e-9832-5352-a33c-de1ab4545d95.html",
-      "digest": "4ecd9da96d7d46f9a2c34dd33819ec5966d9bf5e4f91c86fac9ddadb5fc91e0a"
+      "digest": "0cb6c69b5c60db82d0e6a3b43529902aeb03ee83b85d53d3d5a1b62ffe37a884"
     },
     {
       "id": "80e418bc-39dd-5594-a1b2-a00cc1f3201d",
@@ -216,7 +216,7 @@
       "area": "게임 개발",
       "registration_order": 24,
       "path": "articles/80e418bc-39dd-5594-a1b2-a00cc1f3201d.html",
-      "digest": "f7433c782d0819ac1a311252fea243df68b077aa0b5c51495067fae35576e526"
+      "digest": "b19020cff736076b07e0fdc88c0e450507222d02c6690bbc84d60303f7795c94"
     },
     {
       "id": "0d60fc01-ea64-5471-9e06-693ee0d81238",
@@ -225,7 +225,7 @@
       "area": "게임 개발",
       "registration_order": 25,
       "path": "articles/0d60fc01-ea64-5471-9e06-693ee0d81238.html",
-      "digest": "f61c8dae11a32898f66fc9f35fd20f7c1df35d07a5d1affeb0a1635ae199da60"
+      "digest": "8bbe355c671d8bf42e217a700f24bb0132a48d4d6c88a76ff8c31b1a26001977"
     },
     {
       "id": "13fe368f-828f-5ed2-8452-ef86574198e4",
@@ -234,7 +234,7 @@
       "area": "금융·트레이딩",
       "registration_order": 26,
       "path": "articles/13fe368f-828f-5ed2-8452-ef86574198e4.html",
-      "digest": "546f9305c3bf2bc557386b8e517ce0c6537f5ddfd4e0b79012db51b37089456b"
+      "digest": "2dcec3820836a8418121607f0af019e71d6d7199407423044d57e1b97a5b122f"
     },
     {
       "id": "7a5071dd-ff52-5773-8e61-9ee0d529aef3",
@@ -243,7 +243,7 @@
       "area": "금융·트레이딩",
       "registration_order": 27,
       "path": "articles/7a5071dd-ff52-5773-8e61-9ee0d529aef3.html",
-      "digest": "21f708d40ba742183542eaf2aa050ce0289af08044cf3ef784e591667051ec2a"
+      "digest": "45220d6b6fe60fef1581dc55dfd79871e3b9fb861da4165bc0bf9849c00fb378"
     },
     {
       "id": "3ce33d63-07ef-50d4-b86b-7e4495acfa1f",
@@ -252,7 +252,7 @@
       "area": "금융·트레이딩",
       "registration_order": 28,
       "path": "articles/3ce33d63-07ef-50d4-b86b-7e4495acfa1f.html",
-      "digest": "907c5122a0af7cd25870ec319a171f46d53dda8aae505e0734250dcc12e35eb2"
+      "digest": "6371e14a38434bdfebb962f4bff90a9b43e39b2083e4c72a874ec576440618f2"
     },
     {
       "id": "5a2ebdce-2ece-5224-a399-eba0123b042f",
@@ -261,7 +261,7 @@
       "area": "금융·트레이딩",
       "registration_order": 29,
       "path": "articles/5a2ebdce-2ece-5224-a399-eba0123b042f.html",
-      "digest": "19cc5a77f329d929152e3eb4de297251c8f29e2e3b8fb8338fbd16771c7e60a8"
+      "digest": "95cd42ff4467213d689d57fded4cb0f38a86128ae91f5637bb7eebac5c1ac952"
     },
     {
       "id": "5c7781ed-6be8-5282-a9f4-ff3c5a41dd62",
@@ -270,7 +270,7 @@
       "area": "금융·트레이딩",
       "registration_order": 30,
       "path": "articles/5c7781ed-6be8-5282-a9f4-ff3c5a41dd62.html",
-      "digest": "48535e74e902b999f87c67d4d9a4ac9b4c01aac93dda07b0844eafce405582ce"
+      "digest": "15b4d7ac32d302f56ade435b61104cdab4afb0ef19f88b1fd47e5c0fe8c4d73b"
     },
     {
       "id": "be4ab61e-5704-53d2-b388-8231b789ebca",
@@ -279,7 +279,7 @@
       "area": "금융·트레이딩",
       "registration_order": 31,
       "path": "articles/be4ab61e-5704-53d2-b388-8231b789ebca.html",
-      "digest": "cc74b01ec5bde7f6ff5cd8ccfab1d1ac5cfde4920e67363129f31fb4fc92f22f"
+      "digest": "cfec85344d2ee32595e0402dd8bc399d4f6e697b92606c9a2f122e0a122e4ed1"
     },
     {
       "id": "b7f7f9ac-718e-5452-96c6-7df2a2b00415",
@@ -288,7 +288,7 @@
       "area": "금융·트레이딩",
       "registration_order": 32,
       "path": "articles/b7f7f9ac-718e-5452-96c6-7df2a2b00415.html",
-      "digest": "8f0d439283fa64987b25c24fed59e512497f90ecf1bd203f91cf9151416077bd"
+      "digest": "26c5fd18e1af2fd702cf0375defa7598972313d17f954ae4707a33bf807341c1"
     },
     {
       "id": "f700d416-8484-5ee0-ba58-18bd08fda372",
@@ -297,7 +297,7 @@
       "area": "금융·트레이딩",
       "registration_order": 33,
       "path": "articles/f700d416-8484-5ee0-ba58-18bd08fda372.html",
-      "digest": "b1a961a61544a6a466751fc515f2a4ee9e87d34b233a9c817dac13bc6fd2e83a"
+      "digest": "9c18656f5124b743b4bdfaaab6c525413cfcd074cc4b81fd9a04462749a7f314"
     },
     {
       "id": "9d6e4ac9-2ed7-506d-8036-f19f5721c15f",
@@ -306,7 +306,7 @@
       "area": "금융·트레이딩",
       "registration_order": 34,
       "path": "articles/9d6e4ac9-2ed7-506d-8036-f19f5721c15f.html",
-      "digest": "6f5bf06ca561e5d9a29143cadbcf302e359ac977747f96969774c3560bcf6df6"
+      "digest": "beee07c1cfbb3b2a8e6f6c5817ba5ec400e73f822d37b5059a8eed066a1483b8"
     },
     {
       "id": "7978f773-a637-575e-be90-601b109678aa",
@@ -315,7 +315,7 @@
       "area": "금융·트레이딩",
       "registration_order": 35,
       "path": "articles/7978f773-a637-575e-be90-601b109678aa.html",
-      "digest": "047f86a1c5d5181b5d76ddea5dcde3aaeb03cb85957c54d9805f0965059ba0f7"
+      "digest": "3e716849a332888b0ceefc0fe20a3425584c9a1689e4e3b0467962bf3925fef2"
     },
     {
       "id": "a6844f32-9b87-5b61-bef4-24f0ae450b75",
@@ -324,7 +324,7 @@
       "area": "금융·트레이딩",
       "registration_order": 36,
       "path": "articles/a6844f32-9b87-5b61-bef4-24f0ae450b75.html",
-      "digest": "be060403d5799b3aa7fc502a3c6321ac9fee437af2e9d22549383c2ca1d90304"
+      "digest": "1dcff1b0f7a5d750bacd3e49392d0a6aa3f5cc59c5c93d64f5ea2ed59af9b6d9"
     },
     {
       "id": "d484ecb4-7a41-5c56-ae2f-1a6a94f86679",
@@ -333,7 +333,7 @@
       "area": "금융·트레이딩",
       "registration_order": 37,
       "path": "articles/d484ecb4-7a41-5c56-ae2f-1a6a94f86679.html",
-      "digest": "3bd7b850aabbd956c823d4e1b5a3755debc54f53394c86ce2ed49f9261457cef"
+      "digest": "f2b14382c5a388e24e593dcbd33a1d4100158e2592657758b05df461fc89c2ca"
     },
     {
       "id": "c86ee237-e692-5538-a000-8572561373cb",
@@ -342,7 +342,7 @@
       "area": "금융·트레이딩",
       "registration_order": 38,
       "path": "articles/c86ee237-e692-5538-a000-8572561373cb.html",
-      "digest": "d0786e0452869c510296cc35933d562d8c7dbfe4923d02e08a9bb141fe666029"
+      "digest": "9c11ba7c8950e0ec55301c39e4d92b43b1450e13c7b9d3d01f0748037e1c671d"
     },
     {
       "id": "d19565e7-1bc6-5296-9b8a-6af0bbe73908",
@@ -351,7 +351,7 @@
       "area": "금융·트레이딩",
       "registration_order": 39,
       "path": "articles/d19565e7-1bc6-5296-9b8a-6af0bbe73908.html",
-      "digest": "d8790b281976e9eed36cc950b227dcdb77785535a7f840bd6084191686bb4abd"
+      "digest": "75238730917fb3334a6c6faf3c49c5d75bbc79c368b034574210e2a9562d2ed3"
     },
     {
       "id": "fcdaee1d-e26a-5bd0-913a-80c606575fae",
@@ -360,7 +360,7 @@
       "area": "금융·트레이딩",
       "registration_order": 40,
       "path": "articles/fcdaee1d-e26a-5bd0-913a-80c606575fae.html",
-      "digest": "6991e2462f09636453fe4d273a42ac09ab4876850fe4348e6d0a5feea3a5a222"
+      "digest": "c6cfdf01ab1b265213a5991678f8b488200ede1f7431fd4e910394bc0a528c92"
     },
     {
       "id": "64148ef7-e7f7-5252-8180-2f3b4011a162",
@@ -369,7 +369,7 @@
       "area": "금융·트레이딩",
       "registration_order": 41,
       "path": "articles/64148ef7-e7f7-5252-8180-2f3b4011a162.html",
-      "digest": "a4618692aabbab85c90c8a8aefcf0c00c97fd4a053881757e546ea70a876cdcb"
+      "digest": "5113e1409ce5e954896b8b4512a41e125e13a4b712fe2f8f728de69658cf17c3"
     },
     {
       "id": "8251816c-d108-5bc9-8e65-258e0dca41e1",
@@ -378,7 +378,7 @@
       "area": "금융·트레이딩",
       "registration_order": 42,
       "path": "articles/8251816c-d108-5bc9-8e65-258e0dca41e1.html",
-      "digest": "12f5ebe5d93f49a37284effeadfbc30753328d0d060a559fd7c8cc5e4450e401"
+      "digest": "837375790e7a05390e7b3ff71d409719923e6647c7334f6f05a0a64bdc184cf7"
     },
     {
       "id": "d70d4d43-5c9a-56a0-b908-b41a53ecb038",
@@ -387,7 +387,7 @@
       "area": "금융·트레이딩",
       "registration_order": 43,
       "path": "articles/d70d4d43-5c9a-56a0-b908-b41a53ecb038.html",
-      "digest": "898a330c574f5f828ff819ad27521784b54defbd2b9a5354f21265b389c84043"
+      "digest": "d17b447965e46842a08e8228577a967bed2b3f7004d5e8032e1a59394510d9e1"
     },
     {
       "id": "305592a9-82d8-56b3-98eb-950af44c27d8",
@@ -396,7 +396,7 @@
       "area": "금융·트레이딩",
       "registration_order": 44,
       "path": "articles/305592a9-82d8-56b3-98eb-950af44c27d8.html",
-      "digest": "12ad83c2be53c18ce3baa09ab2fd2d95270db17e2747ea171e3384b0417d9c85"
+      "digest": "851c61b608c291021504075595904dc56448b6021cd889134e2f2b630039d5f5"
     },
     {
       "id": "4a138548-ffc9-5f79-bb45-36801882de55",
@@ -405,7 +405,7 @@
       "area": "금융·트레이딩",
       "registration_order": 46,
       "path": "articles/4a138548-ffc9-5f79-bb45-36801882de55.html",
-      "digest": "9a1f832cd9dba8792a52ae94a32d663edc6a906c09d49788b57b0e3a14c0e850"
+      "digest": "eb48d33eb82cad80a6b2ebe234bf7048970ed0d4aee38b0ad5f79f542bccc471"
     },
     {
       "id": "6808d3c4-d778-5f2b-b1eb-eea97312b36e",
@@ -414,7 +414,7 @@
       "area": "금융·트레이딩",
       "registration_order": 47,
       "path": "articles/6808d3c4-d778-5f2b-b1eb-eea97312b36e.html",
-      "digest": "e1e344a1ef6947e5702bb103b255a2928a579ee7d4264510794ad6699c42ba5f"
+      "digest": "89c08f054d6ea5cf5753ad464ebbe04289316fb3aa82e28c99ba2f9a86203708"
     },
     {
       "id": "4e9dc98e-910f-512f-b811-d53dbb8a89aa",
@@ -423,7 +423,7 @@
       "area": "금융·트레이딩",
       "registration_order": 48,
       "path": "articles/4e9dc98e-910f-512f-b811-d53dbb8a89aa.html",
-      "digest": "03c346c5c8ffef68fa70a3390741818aea314cf5c78dff264f74ae96ac5fc58c"
+      "digest": "d3aca8d06cd909a34a4c8176c781d0888fee656007fd47b05d69a9929f3a7ed2"
     },
     {
       "id": "5b4c0dae-f0a9-54a0-85a8-ecce12f9184c",
@@ -432,7 +432,7 @@
       "area": "금융·트레이딩",
       "registration_order": 49,
       "path": "articles/5b4c0dae-f0a9-54a0-85a8-ecce12f9184c.html",
-      "digest": "1baebc0e3740392f6c5fddbc07de802c9d90c59ae23f755e728334638bae43be"
+      "digest": "27feffdb78b2cca4ce3f506e974bafc44c7a3f7e5e5af065cf72ad174e9eb6df"
     },
     {
       "id": "7f9cdaec-a3f3-5bdd-8fc8-02d68c06c9d6",
@@ -441,7 +441,7 @@
       "area": "금융·트레이딩",
       "registration_order": 50,
       "path": "articles/7f9cdaec-a3f3-5bdd-8fc8-02d68c06c9d6.html",
-      "digest": "505632ff201d32a4bceea7c5c44b928d07d83c20183737fc5b3909d7e59de73e"
+      "digest": "a09b25ee71956f07a9fd9f424c56ef27e26fc966da501131a6a51a2861570382"
     },
     {
       "id": "a89abc85-97ea-57e1-b011-d05e35354fe7",
@@ -450,7 +450,7 @@
       "area": "금융·트레이딩",
       "registration_order": 52,
       "path": "articles/a89abc85-97ea-57e1-b011-d05e35354fe7.html",
-      "digest": "d43657fa1eab7c97f4675646781b5174b5bf398a6e3c87b294fcf3dcd93208f9"
+      "digest": "501593759e830c67b6778900aa45187bb267211dfd4ee77a88cc8278e5876f22"
     },
     {
       "id": "c5108a16-47ef-57fd-b962-565070d5ca0d",
@@ -459,7 +459,7 @@
       "area": "금융·트레이딩",
       "registration_order": 53,
       "path": "articles/c5108a16-47ef-57fd-b962-565070d5ca0d.html",
-      "digest": "0b9259a0c52f2ec8fbda19393a586bb0bfbce7831c5e0d3b65b2dc18859363c2"
+      "digest": "0069457a196c9b5ca1aa956f752d18c8aabda16a6cddd83bcc37aeea9b58e53a"
     },
     {
       "id": "2fa528e8-88b3-5daf-ac17-9cffc0321760",
@@ -468,7 +468,7 @@
       "area": "금융·트레이딩",
       "registration_order": 54,
       "path": "articles/2fa528e8-88b3-5daf-ac17-9cffc0321760.html",
-      "digest": "f147d23a64c0fa51eb85c5c00601935ed8b9efecc313b6de2dcf3eeaccd1919b"
+      "digest": "73369150a4beb7eebef31bb08b1f30a3b94de1ebc37f655a8645e472bdde6e36"
     },
     {
       "id": "e01c4f8b-eba5-575f-a059-4432c9e95059",
@@ -477,7 +477,7 @@
       "area": "금융·트레이딩",
       "registration_order": 55,
       "path": "articles/e01c4f8b-eba5-575f-a059-4432c9e95059.html",
-      "digest": "1cba2fc69df7423bc7cfe08c532fe8eb0a897ef3c0bab977a34f1fed5cd5cbea"
+      "digest": "caa92279ad7631b817c281f2fb78fa41dfad6eecc7d60593955e8907362f7f13"
     },
     {
       "id": "3a54c6ff-ecb1-577f-b17b-102eb9c5700b",
@@ -486,7 +486,7 @@
       "area": "금융·트레이딩",
       "registration_order": 56,
       "path": "articles/3a54c6ff-ecb1-577f-b17b-102eb9c5700b.html",
-      "digest": "d284fb2ae0c4ede63961b0b2228aebcaebb1897dd983a2a793b3512256eba342"
+      "digest": "fa9051ddcc4b82684336f91a0ce569f890d6fd582d0ee3f379bc31f89179407b"
     },
     {
       "id": "ecacf6eb-aecc-5c49-8b7d-883bc197552b",
@@ -495,7 +495,7 @@
       "area": "금융·트레이딩",
       "registration_order": 57,
       "path": "articles/ecacf6eb-aecc-5c49-8b7d-883bc197552b.html",
-      "digest": "c1bb6b80a00836ba8c7cfa1f0f2cb68c8772c15b575114f4e8cdf080acaf027e"
+      "digest": "8e7aaaced9cff56cd06edf9611042348f928b44d0c8c11fcb413f5b625ba4ca8"
     },
     {
       "id": "570283cb-f973-56fc-bbf2-4b324f478500",
@@ -504,7 +504,7 @@
       "area": "금융·트레이딩",
       "registration_order": 58,
       "path": "articles/570283cb-f973-56fc-bbf2-4b324f478500.html",
-      "digest": "0eda9f83f8a971e4dd990f3b1ba2974343dfe736ac41ea97a93048efec01e1ec"
+      "digest": "32b36a147c4f6de69dd2c174924844494de0eb1d059d078eb038ae1150e4eff4"
     },
     {
       "id": "bb65d327-702f-5720-b5c7-57dfa5466e86",
@@ -513,7 +513,7 @@
       "area": "금융·트레이딩",
       "registration_order": 59,
       "path": "articles/bb65d327-702f-5720-b5c7-57dfa5466e86.html",
-      "digest": "a00f42b0236722052ec36aa6fe88542ecc5b74b1658f740cb637dd72fc4acb9d"
+      "digest": "03dd07dca90ef1005a6fe8a9547d501e9dcd0a75ff997b30b675d5b4ed29b504"
     },
     {
       "id": "55018f06-b73b-5cec-a7b6-dee75cb2f265",
@@ -522,7 +522,7 @@
       "area": "금융·트레이딩",
       "registration_order": 60,
       "path": "articles/55018f06-b73b-5cec-a7b6-dee75cb2f265.html",
-      "digest": "9bab154af43cd2367b3a42862d0d677bf87eefe50edd64ec5a59eef0e34845b4"
+      "digest": "061e530e474bb1f643840fc28b340135a00098df88de95c2fcad352cf9a8aee3"
     },
     {
       "id": "7aed3c0d-03c8-5b99-868f-005bf8dd0e1d",
@@ -531,7 +531,7 @@
       "area": "금융·트레이딩",
       "registration_order": 61,
       "path": "articles/7aed3c0d-03c8-5b99-868f-005bf8dd0e1d.html",
-      "digest": "e7d6cc08f5858c978217f4be18f7a32b7dbfc845a02b30fb41d5cfacb22e78d5"
+      "digest": "985b9e0f218cd257c7ab84e625a9d6ed27d3fc02b947b4db52350a95cf5552b0"
     },
     {
       "id": "24a7a93c-c77a-50a2-b275-950bf6586df3",
@@ -540,7 +540,7 @@
       "area": "금융·트레이딩",
       "registration_order": 62,
       "path": "articles/24a7a93c-c77a-50a2-b275-950bf6586df3.html",
-      "digest": "e296844a31560dbade261b13f19b947d78da989ade2a46f42e3e93cff4668a72"
+      "digest": "e63d06680c3b5e0e981402d8a9ffe538e22d79b4f5385843a853972bddf640e8"
     },
     {
       "id": "10c6711d-5633-5a61-b821-cd442d72a150",
@@ -549,7 +549,7 @@
       "area": "금융·트레이딩",
       "registration_order": 63,
       "path": "articles/10c6711d-5633-5a61-b821-cd442d72a150.html",
-      "digest": "434ddd401623c141250338dda93195810ccdc3d79a915d47b28c47601243c57c"
+      "digest": "f2a0197cdb7fa8aa6c053e8d2ac69b718bdd374b7dadf4a89fa751f91c0e926f"
     },
     {
       "id": "bd7f930d-03f9-5aa7-a61e-ef97b70f89a9",
@@ -558,7 +558,7 @@
       "area": "금융·트레이딩",
       "registration_order": 64,
       "path": "articles/bd7f930d-03f9-5aa7-a61e-ef97b70f89a9.html",
-      "digest": "590e3f77cd22c23f7d6736b60545f3741430e1a8bd71e3ae09934cd52d583f54"
+      "digest": "f67c9ceb2af37dd7ab7c57e502fdda2d0f37c6b0b9c7998be769ddd41f176e8f"
     },
     {
       "id": "df1267f7-bee2-5581-8fba-08ec83c2fbd2",
@@ -567,7 +567,7 @@
       "area": "금융·트레이딩",
       "registration_order": 65,
       "path": "articles/df1267f7-bee2-5581-8fba-08ec83c2fbd2.html",
-      "digest": "ba66f2683550da1c900d92d1dac79a9c13b7d0fd97b8abefccf235477fd5ab2e"
+      "digest": "5518a657f297bc90573a85e3d4286c9b69333dce579c0d71abb76eaca02679d2"
     },
     {
       "id": "17ecdded-7132-53a2-92b8-9976e3d59b0b",
@@ -576,7 +576,7 @@
       "area": "금융·트레이딩",
       "registration_order": 66,
       "path": "articles/17ecdded-7132-53a2-92b8-9976e3d59b0b.html",
-      "digest": "2e2857789cd0f2f01a794ccd3a0c883326b4cfa7ab38c13e52a01c46be12db5c"
+      "digest": "1291515818b71ed66551cd4f7d2e09637fd2de68ef448a1f7621dd9e56ccba61"
     }
   ],
   "redirects": {
