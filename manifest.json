@@ -577,6 +577,33 @@
       "registration_order": 66,
       "path": "articles/17ecdded-7132-53a2-92b8-9976e3d59b0b.html",
       "digest": "f200caed02605f3f3d1b1cbc5e6a7df8f65d3aa86d6e904b4feedf081f01d162"
+    },
+    {
+      "id": "80ba50af-c16b-42f6-ac8b-a76e65d0abc5",
+      "title": "관심사 분리(Separation of Concerns)로 게임 상태·장면 제어·표현의 책임 나누기",
+      "category": "개발·운영",
+      "area": "게임 개발",
+      "registration_order": 67,
+      "path": "articles/80ba50af-c16b-42f6-ac8b-a76e65d0abc5.html",
+      "digest": "6492e2a8afe7e3c02c66dc54cbe7f8dab714a95bce03e81881834a63f6f37b21"
+    },
+    {
+      "id": "5e1b1594-7390-42ff-81af-45c96a51e09d",
+      "title": "ID 기반 노드 재사용과 변경 감지로 게임 화면의 불필요한 재생성·갱신 줄이기",
+      "category": "개발·운영",
+      "area": "게임 개발",
+      "registration_order": 68,
+      "path": "articles/5e1b1594-7390-42ff-81af-45c96a51e09d.html",
+      "digest": "f1ba83bab5846faa043f977bde714eabdd35b54b3b02a10c0b85218c23ac6d11"
+    },
+    {
+      "id": "462a9f18-dbd6-494e-bdc1-be47e0dc7ebe",
+      "title": "크리에이티브 브리프(Creative Brief)로 프로젝트 의도·우선순위·제약을 설계와 연결하기",
+      "category": "기획",
+      "area": "게임 개발",
+      "registration_order": 69,
+      "path": "articles/462a9f18-dbd6-494e-bdc1-be47e0dc7ebe.html",
+      "digest": "d542040df1301fd8eed8dcec874f8ca5cfee56be4efc1fc29a3b375ab028418f"
     }
   ],
   "redirects": {
